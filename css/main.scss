@@ -3,7 +3,11 @@
 @charset 'utf-8';
 
 .marker {
+  background-color: #c00;
   bottom: 0;
+  height: 1em;
   position: fixed;
   top: 0;
+  width: 100%;
+  z-index: 1000;
 }
