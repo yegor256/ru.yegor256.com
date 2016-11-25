@@ -1,0 +1,134 @@
+---
+layout: default
+---
+
+<section itemscope="" itemtype="http://schema.org/BlogPosting">
+  <div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+    <meta itemprop="url" content="http://www.yegor256.com/images/yegor-bugayenko-192x192.png"/>
+    <meta itemprop="height" content="192"/>
+    <meta itemprop="width" content="192"/>
+  </div>
+  <div itemscope="" itemprop="publisher" itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="yegor256.com"/>
+    <div itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
+      <meta itemprop="url" content="http://www.yegor256.com/images/yegor-bugayenko-192x192.png"/>
+      <meta itemprop="height" content="192"/>
+      <meta itemprop="width" content="192"/>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <header>
+      <p class="printable">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?data={{ site.url }}{{ page.url }}&amp;format=svg"
+          style="width:125px;height:125px;" alt="QR code"/>
+      </p>
+      <p class="printable">
+        <code itemprop="url">{{ site.url }}{{ page.url }}</code>
+      </p>
+      <h1 itemprop="name headline mainEntityOfPage">{{ page.title }}</h1>
+      {% if page.book %}
+        {{ page.book | book }}
+      {% endif %}
+      <ul class="subline">
+        <li>
+          <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date: "%-d %B %Y" }}
+          </time>
+        </li>
+        {% if page.place %}
+          <li class="desktop-only" itemprop="locationCreated">{{ page.place }}</li>
+        {% endif %}
+        <li class="printable" itemscope="" itemprop="author" itemtype="http://schema.org/Person">
+          <span itemprop="name">Егор Бугаенко</span>
+        </li>
+        <li class="unprintable">
+          <i class="icon icon-comments"></i>
+          <a href="{{ site.url }}{{ page.url }}#disqus_thread" itemprop="discussionUrl">comments</a>
+        </li>
+      </ul>
+      <div class="buttons notranslate desktop-only">
+        <nav class="share">
+          <a href="http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+            title="Share on Facebook" class="button" rel="nofollow">
+            <span class="count count-facebook">0</span>
+            <i class="icon icon-facebook notranslate" aria-hidden="true"></i>
+          </a>
+          <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.title | cgi_escape }}"
+            title="Share on Twitter" class="button" rel="nofollow">
+            <span class="count count-twitter">0</span>
+            <i class="icon icon-twitter notranslate" aria-hidden="true"></i>
+          </a>
+          <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
+            title="Share on Google+" class="button" rel="nofollow">
+            <span class="count count-googleplus">0</span>
+            <i class="icon icon-googleplus notranslate" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/cws/share?url={{ site.url }}{{ page.url }}"
+            title="Share on LinkedIn" class="button" rel="nofollow">
+            <span class="count count-linkedin">0</span>
+            <i class="icon icon-linkedin notranslate" aria-hidden="true"></i>
+          </a>
+          <a href="http://www.stumbleupon.com/submit?url={{ site.url }}{{ page.url }}&amp;title={{ page.title | cgi_escape }}"
+            title="Share on StumbleUpon" class="button" rel="nofollow">
+            <span class="count count-stumbleupon">0</span>
+            <i class="icon icon-stumbleupon notranslate" aria-hidden="true"></i>
+          </a>
+          <a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}%3F{{ page.date | date: "%Y-%U" }}&amp;title={{ page.title | cgi_escape }}"
+            title="Share on Reddit" class="button" rel="nofollow">
+            <span class="count count-reddit">0</span>
+            <i class="icon icon-reddit notranslate" aria-hidden="true"></i>
+          </a>
+          <a href="http://news.ycombinator.com/submitlink?u={{ site.url }}{{ page.url }}%3F{{ page.date | date: "%Y-%U" }}&amp;t={{ page.title | cgi_escape }}"
+            title="Share on Hacker News" class="button" rel="nofollow">
+            <span class="count count-hackernews">0</span>
+            <i class="icon icon-hackernews notranslate" aria-hidden="true"></i>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <article class="main" itemprop="articleBody">
+        {{ content }}
+      </article>
+    </main>
+    <related-posts />
+  </div>
+
+  <div class="disqus" role="complementary">
+    <div id="disqus_thread" class="disqus-thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = document.location.href.split('?')[0].split('#')[0];
+        this.page.identifier = this.page.url;
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = '//ru-yegor256.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>
+      <div>
+        <p class="red">
+          JavaScript is disabled in your browser,
+          that's why you can't see comments under this post.
+        </p>
+      </div>
+    </noscript>
+  </div>
+
+  <div class="wrapper">
+    <footer class="footer">
+      <p>
+        &copy;
+        <span itemscope="" itemprop="copyrightHolder" itemtype="http://schema.org/Person">
+          <span itemprop="name">Егор Бугаенко</span>
+        </span>,
+        2014-<span itemprop="copyrightYear">2016</span>
+      </p>
+    </footer>
+  </div>
+
+</section>

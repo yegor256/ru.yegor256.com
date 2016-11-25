@@ -1,0 +1,41 @@
+title: Егор Бугаенко о политике
+email: me@yegor256.com
+description: >
+  Это русскоязычный раздел моего блога, где я
+  пишу в основном о политике и в основном в Украине
+baseurl: ""
+url: "http://ru.yegor256.com"
+twitter_username: yegor256
+github_username: yegor256
+markdown: kramdown
+author:
+  name: "Егор Бугаенко"
+  email: me@yegor256.com
+encoding: utf-8
+timezone: America/San_Francisco
+permalink: :year-:month-:day-:title.html
+exclude:
+  - README.md
+  - Gemfile.lock
+  - Gemfile
+  - Rakefile
+  - LICENSE.txt
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 8
+paginate_path: "p/:num"
+excerpt_separator: <!--more-->
+
+feed:
+  title: ru.yegor256.com
+  subtitle: Егор Бугаенко о политике
+  path: rss.xml
+
+sass:
+  style: compressed
+  deploy_style: compressed
+  compile_in_place: false
