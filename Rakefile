@@ -18,8 +18,6 @@ task default: [
   :scss_lint,
   :pages,
   :garbage,
-  :proofer,
-  :spell,
   :ping,
   :orphans,
   :rubocop
@@ -95,40 +93,6 @@ task w3c: [:build] do
     puts "#{p}: OK"
   end
   done 'HTML is W3C compliant'
-end
-
-desc 'Validate a few pages through HTML proofer'
-task proofer: [:build] do
-  HTMLProofer.check_directory(
-    '_site',
-    log_level: :warn,
-    check_favicon: true,
-    check_html: true
-  ).run
-  done 'HTML passed through html-proofer'
-end
-
-desc 'Check spelling in all HTML pages'
-task spell: [:build] do
-  Dir['_site/**/*.html'].each do |f|
-    html = Nokogiri::HTML(File.read(f))
-    html.search('//code').remove
-    html.search('//script').remove
-    html.search('//pre').remove
-    html.search('//header').remove
-    html.search('//footer').remove
-    text = html.xpath('/html/body/section//p').text
-    tmp = Tempfile.new(['bloghacks-', '.txt'])
-    tmp << text
-    tmp.flush
-    tmp.close
-    stdout = `cat "#{tmp.path}" \
-      | aspell -a --lang=en_US -W 2 --ignore-case -p ./_rake/aspell.en.pws \
-      | grep ^\\&`
-    fail "Typos at #{f}:\n#{stdout}" unless stdout.empty?
-    puts "#{f}: OK (#{text.split(/\s/).size} words)"
-  end
-  done 'No spelling errors'
 end
 
 desc 'Ping all foreign links'
