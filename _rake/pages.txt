@@ -1,10 +1,7 @@
 CNAME
 robots.txt
-about.html
 404.html
-favicon.ico
 rss.xml
 sitemap.xml
 css/main.css
-images/tomato.svg
-2016/09/12/first-post.html
+2016-11-25-first.html
