@@ -5,3 +5,12 @@
 .photo {
   border: 4px solid #FA2323;
 }
+
+.quote {
+  font-size: 1.4em;
+  span {
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+}
