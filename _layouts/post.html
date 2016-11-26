@@ -50,27 +50,32 @@ layout: default
       <div class="buttons notranslate desktop-only">
         <nav class="share">
           <a href="http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
-            title="Share on Facebook" class="button" rel="nofollow">
+            title="поделиться на Facebook" class="button" rel="nofollow">
             <span class="count count-facebook">0</span>
             <i class="icon icon-facebook notranslate" aria-hidden="true"></i>
           </a>
+          <a href="https://vk.com/share.php?url={{ site.url }}{{ page.url }}"
+            title="поделиться на VK" class="button" rel="nofollow">
+            <span class="count count-vk">0</span>
+            <i class="icon icon-vk notranslate" aria-hidden="true"></i>
+          </a>
           <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.title | cgi_escape }}"
-            title="Share on Twitter" class="button" rel="nofollow">
+            title="поделиться на Twitter" class="button" rel="nofollow">
             <span class="count count-twitter">0</span>
             <i class="icon icon-twitter notranslate" aria-hidden="true"></i>
           </a>
           <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
-            title="Share on Google+" class="button" rel="nofollow">
+            title="поделиться на Google+" class="button" rel="nofollow">
             <span class="count count-googleplus">0</span>
             <i class="icon icon-googleplus notranslate" aria-hidden="true"></i>
           </a>
           <a href="https://www.linkedin.com/cws/share?url={{ site.url }}{{ page.url }}"
-            title="Share on LinkedIn" class="button" rel="nofollow">
+            title="поделиться на LinkedIn" class="button" rel="nofollow">
             <span class="count count-linkedin">0</span>
             <i class="icon icon-linkedin notranslate" aria-hidden="true"></i>
           </a>
           <a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}%3F{{ page.date | date: "%Y-%U" }}&amp;title={{ page.title | cgi_escape }}"
-            title="Share on Reddit" class="button" rel="nofollow">
+            title="поделиться на Reddit" class="button" rel="nofollow">
             <span class="count count-reddit">0</span>
             <i class="icon icon-reddit notranslate" aria-hidden="true"></i>
           </a>
