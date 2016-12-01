@@ -12,6 +12,7 @@ keywords:
   - янукович
   - диктатура
   - власть
+image: https://i0.wp.com/image.inforesist.org/uploads/2016/08/1387436605_1387029072_regionaly-obyavili-bessrochnyy-antimaydan.jpeg
 ---
 
 [Виктор Янукович](https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D1%83%D0%BA%D0%BE%D0%B2%D0%B8%D1%87,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87),
@@ -34,7 +35,6 @@ keywords:
 <!--more-->
 
 <figure><a href="https://inforesist.org/za-chto-ne-stoyal-antimaydan/">
-<meta property="og:image" content="https://i0.wp.com/image.inforesist.org/uploads/2016/08/1387436605_1387029072_regionaly-obyavili-bessrochnyy-antimaydan.jpeg" />
 <img src="https://i0.wp.com/image.inforesist.org/uploads/2016/08/1387436605_1387029072_regionaly-obyavili-bessrochnyy-antimaydan.jpeg"
   alt="people"/>
 </a></figure>

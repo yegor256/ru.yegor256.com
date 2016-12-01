@@ -12,6 +12,7 @@ keywords:
   - оружие
   - продажа оружия
   - запрет ношения оружия
+image: http://www.usnews.com/dims4/USNEWS/2f7b2de/2147483647/thumbnail/970x647/quality/85/?url=%2Fcmsmedia%2Fc8%2Faaa5ca2cbe9723f6c1fcd16105bea4%2Fresizes%2F1500%2Fmedia%3Afcd4329153064cb29d375b20290fb5f2APTOPIXObamaGuns.JPEG
 ---
 
 [Многие страны](http://guns.orenburg.biz/art999.html)
@@ -28,7 +29,6 @@ keywords:
 <!--more-->
 
 <figure><a href="http://www.usnews.com/news/articles/2016/01/06/was-president-obama-fake-crying-during-gun-control-speech">
-<meta property="og:image" content="http://www.usnews.com/dims4/USNEWS/2f7b2de/2147483647/thumbnail/970x647/quality/85/?url=%2Fcmsmedia%2Fc8%2Faaa5ca2cbe9723f6c1fcd16105bea4%2Fresizes%2F1500%2Fmedia%3Afcd4329153064cb29d375b20290fb5f2APTOPIXObamaGuns.JPEG" />
 <img src="http://www.usnews.com/dims4/USNEWS/2f7b2de/2147483647/thumbnail/970x647/quality/85/?url=%2Fcmsmedia%2Fc8%2Faaa5ca2cbe9723f6c1fcd16105bea4%2Fresizes%2F1500%2Fmedia%3Afcd4329153064cb29d375b20290fb5f2APTOPIXObamaGuns.JPEG"/>
 </a></figure>
 
