@@ -12,7 +12,7 @@ author:
   name: "Егор Бугаенко"
   email: me@yegor256.com
 encoding: utf-8
-timezone: America/San_Francisco
+timezone: Europe/Kiev
 permalink: :year-:month-:day-:title.html
 exclude:
   - README.md
