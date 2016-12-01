@@ -33,8 +33,8 @@ layout: default
       <ul class="subline">
         <li>
           <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
-            {% assign m = post.date | date: "%-m" %}
-            {{ post.date | date: "%-d" }}
+            {% assign m = page.date | date: "%-m" %}
+            {{ page.date | date: "%-d" }}
             {% case m %}
               {% when '1' %}Января
               {% when '2' %}Февраля
@@ -49,7 +49,7 @@ layout: default
               {% when '11' %}Ноября
               {% when '12' %}Декабря
             {% endcase %}
-            {{ post.date | date: "%Y" }}
+            {{ page.date | date: "%Y" }}
           </time>
         </li>
         {% if page.place %}
