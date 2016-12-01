@@ -105,7 +105,7 @@ task ping: [:build] do
   links.map { |u| URI.parse(u) }.each do |uri|
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true if uri.port == 443
-    data = http.head(uri.request_uri, { 'User-Agent' => 'ru.yegor256.com' })
+    data = http.head(uri.request_uri, 'User-Agent' => 'ru.yegor256.com')
     puts "#{uri}: #{data.code}"
     fail "URI #{uri} is not OK" unless data.code == '200'
   end
