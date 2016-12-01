@@ -34,6 +34,7 @@ keywords:
 <!--more-->
 
 <figure><a href="https://inforesist.org/za-chto-ne-stoyal-antimaydan/">
+<meta property="og:image" content="https://i0.wp.com/image.inforesist.org/uploads/2016/08/1387436605_1387029072_regionaly-obyavili-bessrochnyy-antimaydan.jpeg" />
 <img src="https://i0.wp.com/image.inforesist.org/uploads/2016/08/1387436605_1387029072_regionaly-obyavili-bessrochnyy-antimaydan.jpeg"
   alt="people"/>
 </a></figure>
