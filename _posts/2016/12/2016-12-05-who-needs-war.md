@@ -24,11 +24,11 @@ keywords:
 откуда ведется координация огня. Но действительно ли эти солдаты
 наши настоящие враги, а отечество именно там?
 
-<!--more-->
-
 <figure><a href="http://www.unian.net/politics/954789-poroshenko-ukraina-doljna-gotovitsya-k-jizni-v-usloviyah-postoyannoy-vneshney-agressii.html">
 <img src="http://images.unian.net/photos/2014_08/1408868035-6697.jpg"/>
 </a></figure>
+
+<!--more-->
 
 Представьте себе, что вы&mdash;владелец предприятия по производству оборудования
 для металлургических заводов, а я&mdash;владелец одного из таких заводов. Вы живете

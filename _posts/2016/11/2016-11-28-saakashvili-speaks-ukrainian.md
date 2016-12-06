@@ -22,12 +22,12 @@ image: http://on.od.ua/wp-content/uploads/2016/10/%D0%A1%D0%B0%D0%B0%D0%BA%D0%B0
 [этот популизм](http://www.ntv.ru/novosti/1617794/)
 с украинским языком. Зачем Вы это делаете, Михаил?
 
-<!--more-->
-
 <figure>
 <img src="http://on.od.ua/wp-content/uploads/2016/10/%D0%A1%D0%B0%D0%B0%D0%BA%D0%B0%D1%88%D0%B2%D0%B8%D0%BB%D0%B8-840x420.jpg"
   alt="saakashvili"/>
 </figure>
+
+<!--more-->
 
 Я понимаю, зачем этим занимались
 [Азаров](http://lurkmore.to/%D0%90%D0%B7%D0%B0%D1%80%D0%BE%D0%B2),

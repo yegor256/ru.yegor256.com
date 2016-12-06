@@ -32,12 +32,12 @@ image: https://i0.wp.com/image.inforesist.org/uploads/2016/08/1387436605_1387029
 явно намекая на высокое доверие народа к нему самому.
 Народ, а именно мы с вами,&mdash;его главная надежда. И он не ошибается.
 
-<!--more-->
-
 <figure><a href="https://inforesist.org/za-chto-ne-stoyal-antimaydan/">
 <img src="https://i0.wp.com/image.inforesist.org/uploads/2016/08/1387436605_1387029072_regionaly-obyavili-bessrochnyy-antimaydan.jpeg"
   alt="people"/>
 </a></figure>
+
+<!--more-->
 
 Я более чем уверен, что если провести опрос сегодня, то рейтинг доверия
 Януковичу, будет выше чем любому другому украинскому политику (может быть,
