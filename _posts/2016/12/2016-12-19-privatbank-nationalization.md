@@ -23,6 +23,10 @@ keywords:
 Я думаю, мы стали свидетелями, наверное, самого крупного в истории Украины
 рейдерского захвата.
 
+<figure><a href="http://antikor.com.ua/articles/142274-nas_dohali_kolomojskij_rezko_otozvalsja_o_natsionalizatsii_privatbanka">
+<img src="http://antikor.com.ua/foto/articles_foto/2016/12/19/142274.jpg"/>
+</a></figure>
+
 <!--more-->
 
 Конечно, обидно за Коломойского, который, правдами или неправдами, построил
