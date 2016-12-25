@@ -12,6 +12,10 @@ keywords:
   - коломойский
   - приватбанк
   - национализация
+jb_picture:
+  src: http://antikor.com.ua/foto/articles_foto/2016/12/19/142274.jpg
+  href: http://antikor.com.ua/articles/142274-nas_dohali_kolomojskij_rezko_otozvalsja_o_natsionalizatsii_privatbanka
+  caption: antikor.com.ua
 ---
 
 Вчера [стало известно](http://korrespondent.net/ukraine/3788734-pryvatbank-perekhodyt-v-sobstvennost-hosudarstva)
@@ -24,9 +28,7 @@ keywords:
 [рейдерского](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B9%D0%B4%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%28%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%29)
 захвата.
 
-<figure><a href="http://antikor.com.ua/articles/142274-nas_dohali_kolomojskij_rezko_otozvalsja_o_natsionalizatsii_privatbanka">
-<img src="http://antikor.com.ua/foto/articles_foto/2016/12/19/142274.jpg"/>
-</a></figure>
+{% jb_picture_body %}
 
 <!--more-->
 

@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', '96', group: :jekyll_plugins
+gem 'jekyll', '3.2.1'
+gem 'jekyll-feed', '0.5.1'
+gem 'jekyll-paginate', '1.1.0'
+gem 'jekyll-sitemap', '0.10.0'
+gem 'jekyll-bits', '0.5'
 gem 'rake', '10.4.2'
 gem 'scss_lint', '0.38.0'
 gem 'w3c_validators', '1.1.1'

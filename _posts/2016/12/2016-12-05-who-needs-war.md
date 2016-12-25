@@ -12,6 +12,10 @@ keywords:
   - война
   - АТО
   - война в Украине
+jb_picture:
+  src: http://images.unian.net/photos/2014_08/1408868035-6697.jpg
+  caption: unian.net
+  href: http://www.unian.net/politics/954789-poroshenko-ukraina-doljna-gotovitsya-k-jizni-v-usloviyah-postoyannoy-vneshney-agressii.html
 ---
 
 Внешне все войны одинаковы: флаги, логунги, герои, калеки и
@@ -24,9 +28,7 @@ keywords:
 откуда ведется координация огня. Но действительно ли эти солдаты
 наши настоящие враги, а отечество именно там?
 
-<figure><a href="http://www.unian.net/politics/954789-poroshenko-ukraina-doljna-gotovitsya-k-jizni-v-usloviyah-postoyannoy-vneshney-agressii.html">
-<img src="http://images.unian.net/photos/2014_08/1408868035-6697.jpg"/>
-</a></figure>
+{% jb_picture_body %}
 
 <!--more-->
 

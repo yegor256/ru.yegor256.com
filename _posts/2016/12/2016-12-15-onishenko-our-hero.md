@@ -12,6 +12,10 @@ keywords:
   - порошенко
   - коррупция
   - взятки
+jb_picture:
+  src: https://www.kyivpost.com/wp-content/uploads/2016/12/02_718907.jpg
+  href: https://www.kyivpost.com/ukraine-politics/onyshchenko-makes-sweeping-claims-poroshenko-graft.html
+  caption: kyivpost.com
 ---
 
 Пару дней назад некий
@@ -22,9 +26,7 @@ keywords:
 ныне действующего президента Порошенко: депутаты и министры берут
 взятки.
 
-<figure><a href="https://www.kyivpost.com/ukraine-politics/onyshchenko-makes-sweeping-claims-poroshenko-graft.html">
-<img src="https://www.kyivpost.com/wp-content/uploads/2016/12/02_718907.jpg"/>
-</a></figure>
+{% jb_picture_body %}
 
 <!--more-->
 

@@ -13,6 +13,10 @@ keywords:
   - порядок
   - коррупция
   - суд
+jb_picture:
+  src: http://u-f.ru/sites/default/files/styles/main_700/public/uploads/5_0_1.jpg?itok=_a_MOOOH
+  href: http://u-f.ru/news/society/u9/2016/12/08/235027
+  caption: u-f.ru
 ---
 
 Недавно Владимир Путин провел
@@ -27,9 +31,7 @@ keywords:
 дыбом встают. Что это такое? Совсем с ума сошли, что ли?" А ведь действительно,
 куда это годится?
 
-<figure><a href="http://ren.tv/novosti/2016-12-09/putin-o-kompetentnosti-rabotnikov-sudebnoy-sistemy-vy-sovsem-s-uma-soshli-chto-li">
-<img src="https://rentv.cdnvideo.ru/sites/default/files/styles/640x360/public/field/image/2016/49/yyjwa1y6o6upnzc4g3hkyt8vsgvfjabh_0_0_0.jpg?itok=Zo0xqkSQ"/>
-</a></figure>
+{% jb_picture_body %}
 
 <!--more-->
 

@@ -11,6 +11,10 @@ keywords:
   - люстрация
   - честный чиновник
   - коррупция
+jb_picture:
+  src: http://rian.com.ua/images/35712/15/357121571.jpg
+  href: http://rian.com.ua/analytics/20141126/360009128.html
+  caption: rian.com.ua
 ---
 
 [Люстрация](https://ru.wikipedia.org/wiki/%D0%9B%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F)
@@ -21,9 +25,7 @@ keywords:
 уволим навсегда и возьмем новых. Честных, порядочных, достойных, грамотных и
 искренне болеющих за Украину. Я с этим не согласен.
 
-<figure><a href="http://rian.com.ua/analytics/20141126/360009128.html">
-<img src="http://rian.com.ua/images/35712/15/357121571.jpg"/>
-</a></figure>
+{% jb_picture_body %}
 
 <!--more-->
 

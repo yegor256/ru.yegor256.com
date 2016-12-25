@@ -14,6 +14,10 @@ keywords:
   - яценюк
   - гройсман
   - азаров
+jb_picture:
+  src: https://icdn.lenta.ru/images/2016/11/01/13/20161101130236634/detail_50b55f1f99563fa200e00a8dbde1033e.jpg
+  href: https://lenta.ru/articles/2016/11/03/stalin/
+  caption: lenta.ru
 ---
 
 Наш бывший премьер министр [Яценюк](https://ru.wikipedia.org/wiki/%D0%AF%D1%86%D0%B5%D0%BD%D1%8E%D0%BA,_%D0%90%D1%80%D1%81%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87)
@@ -27,9 +31,7 @@ keywords:
 И как думаете, куда именно и когда сбежит
 [Гройсман](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%BE%D0%B9%D1%81%D0%BC%D0%B0%D0%BD,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87)?
 
-<figure><a href="https://lenta.ru/articles/2016/11/03/stalin/">
-<img src="https://icdn.lenta.ru/images/2016/11/01/13/20161101130236634/detail_50b55f1f99563fa200e00a8dbde1033e.jpg"/>
-</a></figure>
+{% jb_picture_body %}
 
 <!--more-->
 

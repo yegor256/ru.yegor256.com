@@ -12,7 +12,9 @@ keywords:
   - саакашвили
   - язык
   - национализм
-image: http://on.od.ua/wp-content/uploads/2016/10/%D0%A1%D0%B0%D0%B0%D0%BA%D0%B0%D1%88%D0%B2%D0%B8%D0%BB%D0%B8-840x420.jpg
+jb_picture:
+  src: http://on.od.ua/wp-content/uploads/2016/10/%D0%A1%D0%B0%D0%B0%D0%BA%D0%B0%D1%88%D0%B2%D0%B8%D0%BB%D0%B8-840x420.jpg
+  caption: od.ua
 ---
 
 Я испытываю большую симпатию к
@@ -22,10 +24,7 @@ image: http://on.od.ua/wp-content/uploads/2016/10/%D0%A1%D0%B0%D0%B0%D0%BA%D0%B0
 [этот популизм](http://www.ntv.ru/novosti/1617794/)
 с украинским языком. Зачем Вы это делаете, Михаил?
 
-<figure>
-<img src="http://on.od.ua/wp-content/uploads/2016/10/%D0%A1%D0%B0%D0%B0%D0%BA%D0%B0%D1%88%D0%B2%D0%B8%D0%BB%D0%B8-840x420.jpg"
-  alt="saakashvili"/>
-</figure>
+{% jb_picture_body %}
 
 <!--more-->
 

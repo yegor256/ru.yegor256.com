@@ -12,6 +12,10 @@ keywords:
   - терроризм
   - турция
   - война
+jb_picture:
+  src: https://www.rbc.ua/static/img/9/2/92631_17_650x410.jpg
+  href: https://www.rbc.ua/rus/news/turtsiya-nanesla-udar-pozitsiyam-igil-sirii-1465040531.html
+  caption: rbc.ua
 ---
 
 Позавчера в Турции [убили](http://korrespondent.net/world/3789151-posol-rf-v-turtsyy-ubyt-v-ankare-podrobnosty)
@@ -32,9 +36,7 @@ keywords:
 посла России в Турции, прохожих в Берлине и туристов в Париже
 ни в чем не повинными людьми.
 
-<figure><a href="https://www.rbc.ua/rus/news/turtsiya-nanesla-udar-pozitsiyam-igil-sirii-1465040531.html">
-<img src="https://www.rbc.ua/static/img/9/2/92631_17_650x410.jpg"/>
-</a></figure>
+{% jb_picture_body %}
 
 <!--more-->
 
