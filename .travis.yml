@@ -15,7 +15,7 @@ before_install:
   - set -e
   - git config --global user.email "travis@yegor256.com"
   - git config --global user.name "travis"
-  - openssl aes-256-cbc -K $encrypted_4f2987e75937_key -iv $encrypted_4f2987e75937_iv -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_4f2987e75937_key -iv $encrypted_4f2987e75937_iv -in id_rsa.enc -out id_rsa -d
   - mv id_rsa ~/.ssh
   - chmod 600 ~/.ssh/id_rsa
 install:
