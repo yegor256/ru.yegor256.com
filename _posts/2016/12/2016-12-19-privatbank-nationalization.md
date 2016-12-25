@@ -13,8 +13,7 @@ keywords:
   - приватбанк
   - национализация
 jb_picture:
-  src: http://antikor.com.ua/foto/articles_foto/2016/12/19/142274.jpg
-  href: http://antikor.com.ua/articles/142274-nas_dohali_kolomojskij_rezko_otozvalsja_o_natsionalizatsii_privatbanka
+  src: /images/2016/12/privatbank.jpg
   caption: antikor.com.ua
 ---
 

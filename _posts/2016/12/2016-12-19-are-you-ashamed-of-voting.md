@@ -15,8 +15,7 @@ keywords:
   - гройсман
   - азаров
 jb_picture:
-  src: https://icdn.lenta.ru/images/2016/11/01/13/20161101130236634/detail_50b55f1f99563fa200e00a8dbde1033e.jpg
-  href: https://lenta.ru/articles/2016/11/03/stalin/
+  src: /images/2016/12/voting.jpg
   caption: lenta.ru
 ---
 

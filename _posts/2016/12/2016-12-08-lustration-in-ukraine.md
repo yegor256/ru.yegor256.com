@@ -12,8 +12,7 @@ keywords:
   - честный чиновник
   - коррупция
 jb_picture:
-  src: http://rian.com.ua/images/35712/15/357121571.jpg
-  href: http://rian.com.ua/analytics/20141126/360009128.html
+  src: /images/2016/12/lustration.jpg
   caption: rian.com.ua
 ---
 

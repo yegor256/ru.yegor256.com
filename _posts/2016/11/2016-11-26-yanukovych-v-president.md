@@ -13,8 +13,7 @@ keywords:
   - диктатура
   - власть
 jb_picture:
-  src: https://i0.wp.com/image.inforesist.org/uploads/2016/08/1387436605_1387029072_regionaly-obyavili-bessrochnyy-antimaydan.jpeg
-  href: https://inforesist.org/za-chto-ne-stoyal-antimaydan/
+  src: /images/2016/11/yanukovich.jpg
   caption: inforesist.org
 ---
 

@@ -13,9 +13,8 @@ keywords:
   - АТО
   - война в Украине
 jb_picture:
-  src: http://images.unian.net/photos/2014_08/1408868035-6697.jpg
+  src: /images/2016/12/war.jpg
   caption: unian.net
-  href: http://www.unian.net/politics/954789-poroshenko-ukraina-doljna-gotovitsya-k-jizni-v-usloviyah-postoyannoy-vneshney-agressii.html
 ---
 
 Внешне все войны одинаковы: флаги, логунги, герои, калеки и

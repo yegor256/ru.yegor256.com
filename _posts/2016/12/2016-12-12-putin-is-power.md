@@ -14,9 +14,8 @@ keywords:
   - коррупция
   - суд
 jb_picture:
-  src: http://u-f.ru/sites/default/files/styles/main_700/public/uploads/5_0_1.jpg?itok=_a_MOOOH
-  href: http://u-f.ru/news/society/u9/2016/12/08/235027
-  caption: u-f.ru
+  src: /images/2016/12/putin.jpg
+  caption: ren.tv
 ---
 
 Недавно Владимир Путин провел

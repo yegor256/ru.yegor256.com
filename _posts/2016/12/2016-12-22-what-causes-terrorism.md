@@ -13,8 +13,7 @@ keywords:
   - турция
   - война
 jb_picture:
-  src: https://www.rbc.ua/static/img/9/2/92631_17_650x410.jpg
-  href: https://www.rbc.ua/rus/news/turtsiya-nanesla-udar-pozitsiyam-igil-sirii-1465040531.html
+  src: /images/2016/12/terrorism.jpg
   caption: rbc.ua
 ---
 

@@ -13,8 +13,7 @@ keywords:
   - коррупция
   - взятки
 jb_picture:
-  src: https://www.kyivpost.com/wp-content/uploads/2016/12/02_718907.jpg
-  href: https://www.kyivpost.com/ukraine-politics/onyshchenko-makes-sweeping-claims-poroshenko-graft.html
+  src: /images/2016/12/onishenko.jpg
   caption: kyivpost.com
 ---
 
