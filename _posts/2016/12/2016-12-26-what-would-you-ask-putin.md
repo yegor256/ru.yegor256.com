@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2016-12-05
+date: 2016-12-26
 title: "Что бы я спросил у Путина"
 description: |
   На пресс конференции Владимиру Путину задавали
@@ -12,6 +12,9 @@ keywords:
   - путин
   - демократия
   - стабильность
+jb_picture:
+  src: /images/2016/12/putin2.jpg
+  caption: rian.com.ua
 ---
 
 Позавчера [Владимир Путин](https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B8%D0%BD,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87),
@@ -29,9 +32,7 @@ keywords:
 бездомных животных, допинге и квасе. А что бы
 вы спросили у Путина, оказавшись у микрофона?
 
-<figure><a href="http://rian.com.ua/analytics/20161224/1019955974.html">
-<img src="http://rian.com.ua/images/101993/02/1019930257.jpg"/>
-</a></figure>
+{% jb_picture_body %}
 
 <!--more-->
 
