@@ -14,9 +14,7 @@ keywords:
 
 ...
 
-<figure><a href="http://www.unian.net/politics/954789-poroshenko-ukraina-doljna-gotovitsya-k-jizni-v-usloviyah-postoyannoy-vneshney-agressii.html">
-<img src="http://images.unian.net/photos/2014_08/1408868035-6697.jpg"/>
-</a></figure>
+{% jb_picture_body %}
 
 <!--more-->
 
