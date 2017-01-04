@@ -1,5 +1,5 @@
 title: Егор Бугаенко о политике
-email: me@yegor256.com
+email: yegor256@gmail.com
 description: >
   Это русскоязычный раздел моего блога, где я
   пишу в основном о политике и в основном в Украине
@@ -10,7 +10,7 @@ github_username: yegor256
 markdown: kramdown
 author:
   name: "Егор Бугаенко"
-  email: me@yegor256.com
+  email: yegor256@gmail.com
 encoding: utf-8
 timezone: Europe/Kiev
 permalink: :year-:month-:day-:title.html
