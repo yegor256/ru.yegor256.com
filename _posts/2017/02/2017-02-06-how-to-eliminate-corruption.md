@@ -59,7 +59,7 @@ jb_picture:
 [опыт Сингапура](http://sudanet.ru/borba_s_corrupciei_v_singapure),
 где под руководством
 [Ли&nbsp;Куан&nbsp;Ю](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8_%D0%9A%D1%83%D0%B0%D0%BD_%D0%AE)
-антикоррупционное законодательство было ужесточено на столько, что,
+антикоррупционное законодательство было ужесточено настолько, что,
 например, даже обещание взятки стало считаться взяткой.
 А Китай вообще впереди всех &mdash; там за последние десять лет
 [расстреляли](http://antikor.com.ua/articles/39625-s_2000_goda_v_kitae_za_korruptsiju_rasstreljano_10_tysjach_chinovnikov)
