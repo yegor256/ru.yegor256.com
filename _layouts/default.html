@@ -10,16 +10,16 @@ layout: compress
     <meta name="keywords" content="{{ page.keywords | join:', ' | xml_escape }}" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
     <meta name="google-site-verification" content="JEj_gQr2CPe2QKGw8XdMz0R7VboQIUbX3FlM-lwTq-8" />
-    <meta property="og:site_name" content="{{ site.author.name }}"/>
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:description" content="{{ page.description }}" />
-    {{ page | jb_picture_head }}
+    <meta name="og:site_name" content="{{ site.author.name }}"/>
+    <meta name="og:title" content="{{ page.title }}" />
+    <meta name="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="og:description" content="{{ page.description }}" />
     <link rel="shortcut icon" href="http://www.yegor256.com/favicon.ico"/>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="http://www.yegor256.com/css/layout.css"/>
     <link rel="stylesheet" href="http://www.yegor256.com/css/icons.css"/>
     <link rel="stylesheet" href="/css/main.css"/>
+    {{ page | jb_picture_head }}
   </head>
   <body>
     <div class="wrapper">
