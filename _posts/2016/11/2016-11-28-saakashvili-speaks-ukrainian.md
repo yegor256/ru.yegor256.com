@@ -12,8 +12,8 @@ keywords:
   - саакашвили
   - язык
   - национализм
+image: /images/2016/11/saakashvili.jpg
 jb_picture:
-  src: /images/2016/11/saakashvili.jpg
   caption: od.ua
 ---
 

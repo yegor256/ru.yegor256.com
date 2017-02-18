@@ -12,8 +12,8 @@ keywords:
   - протесты
   - повстанцы
   - митинги
+image: /images/2017/01/molotov.jpg
 jb_picture:
-  src: /images/2017/01/molotov.jpg
   caption: gazeta.ru
 ---
 

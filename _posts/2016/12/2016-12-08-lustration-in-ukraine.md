@@ -11,8 +11,8 @@ keywords:
   - люстрация
   - честный чиновник
   - коррупция
+image: /images/2016/12/lustration.jpg
 jb_picture:
-  src: /images/2016/12/lustration.jpg
   caption: rian.com.ua
 ---
 

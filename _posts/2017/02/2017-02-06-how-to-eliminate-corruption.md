@@ -12,8 +12,8 @@ keywords:
   - коррупция
   - украина
   - индекс коррупции
+image: /images/2017/01/corruption.jpg
 jb_picture:
-  src: /images/2017/01/corruption.jpg
   caption: ua1.com.ua
 ---
 

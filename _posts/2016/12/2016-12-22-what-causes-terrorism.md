@@ -12,8 +12,8 @@ keywords:
   - терроризм
   - турция
   - война
+image: /images/2016/12/terrorism.jpg
 jb_picture:
-  src: /images/2016/12/terrorism.jpg
   caption: rbc.ua
 ---
 

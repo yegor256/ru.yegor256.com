@@ -11,8 +11,8 @@ keywords:
   - пожертвования
   - милосердие
   - здоровье
+image: /images/2016/12/donations.jpg
 jb_picture:
-  src: /images/2016/12/donations.jpg
   caption: rian.com.ua
 ---
 

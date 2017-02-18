@@ -12,8 +12,8 @@ keywords:
   - национализм
   - патриотизм
   - ненависть
+image: /images/2017/01/ukrainian.jpg
 jb_picture:
-  src: /images/2017/01/ukrainian.jpg
   caption: studway.com.ua
 ---
 

@@ -12,8 +12,8 @@ keywords:
   - война
   - АТО
   - война в Украине
+image: /images/2016/12/war.jpg
 jb_picture:
-  src: /images/2016/12/war.jpg
   caption: unian.net
 ---
 

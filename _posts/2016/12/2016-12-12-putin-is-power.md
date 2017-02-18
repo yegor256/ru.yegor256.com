@@ -13,8 +13,8 @@ keywords:
   - порядок
   - коррупция
   - суд
+image: /images/2016/12/putin.jpg
 jb_picture:
-  src: /images/2016/12/putin.jpg
   caption: ren.tv
 ---
 

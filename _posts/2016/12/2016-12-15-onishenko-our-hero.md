@@ -12,8 +12,8 @@ keywords:
   - порошенко
   - коррупция
   - взятки
+image: /images/2016/12/onishenko.jpg
 jb_picture:
-  src: /images/2016/12/onishenko.jpg
   caption: kyivpost.com
 ---
 

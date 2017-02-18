@@ -12,8 +12,8 @@ keywords:
   - оружие
   - продажа оружия
   - запрет ношения оружия
+image: /images/2016/12/guns.jpg
 jb_picture:
-  src: /images/2016/12/guns.jpg
   caption: usnews.com
 ---
 

@@ -12,8 +12,8 @@ keywords:
   - коломойский
   - приватбанк
   - национализация
+image: /images/2016/12/privatbank.jpg
 jb_picture:
-  src: /images/2016/12/privatbank.jpg
   caption: antikor.com.ua
 ---
 
