@@ -12,7 +12,7 @@ keywords:
   - терроризм
   - турция
   - война
-image: /images/2016/12/terrorism.jpg
+image: https://cf.jare.io?u=http://ru.yegor256.com/images/2016/12/terrorism.jpg
 jb_picture:
   caption: rbc.ua
 ---

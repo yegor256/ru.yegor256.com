@@ -12,7 +12,7 @@ keywords:
   - янукович
   - диктатура
   - власть
-image: /images/2016/11/yanukovich.jpg
+image: https://cf.jare.io?u=http://ru.yegor256.com/images/2016/11/yanukovich.jpg
 jb_picture:
   caption: inforesist.org
 ---

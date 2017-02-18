@@ -12,7 +12,7 @@ keywords:
   - война
   - коррупция
   - власть
-image: /images/2017/01/army.jpg
+image: https://cf.jare.io?u=http://ru.yegor256.com/images/2017/01/army.jpg
 jb_picture:
   caption: allnews.com.ua
 ---

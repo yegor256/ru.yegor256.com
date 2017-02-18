@@ -12,7 +12,7 @@ keywords:
   - оружие
   - продажа оружия
   - запрет ношения оружия
-image: /images/2016/12/guns.jpg
+image: https://cf.jare.io?u=http://ru.yegor256.com/images/2016/12/guns.jpg
 jb_picture:
   caption: usnews.com
 ---

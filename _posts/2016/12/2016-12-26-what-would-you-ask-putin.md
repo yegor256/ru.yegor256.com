@@ -12,7 +12,7 @@ keywords:
   - путин
   - демократия
   - стабильность
-image: /images/2016/12/putin2.jpg
+image: https://cf.jare.io?u=http://ru.yegor256.com/images/2016/12/putin2.jpg
 jb_picture:
   caption: rian.com.ua
 ---

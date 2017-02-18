@@ -13,7 +13,7 @@ keywords:
   - порядок
   - коррупция
   - суд
-image: /images/2016/12/putin.jpg
+image: https://cf.jare.io?u=http://ru.yegor256.com/images/2016/12/putin.jpg
 jb_picture:
   caption: ren.tv
 ---

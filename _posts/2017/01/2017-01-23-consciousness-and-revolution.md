@@ -12,7 +12,7 @@ keywords:
   - протесты
   - повстанцы
   - митинги
-image: /images/2017/01/molotov.jpg
+image: https://cf.jare.io?u=http://ru.yegor256.com/images/2017/01/molotov.jpg
 jb_picture:
   caption: gazeta.ru
 ---

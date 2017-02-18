@@ -12,7 +12,7 @@ keywords:
   - сепаратизм
   - уголовный кодекс
   - целострость украины
-image: /images/2017/01/separation.jpg
+image: https://cf.jare.io?u=http://ru.yegor256.com/images/2017/01/separation.jpg
 jb_picture:
   caption: ubop.info
 ---

@@ -12,7 +12,7 @@ keywords:
   - коррупция
   - курченко
   - корбан
-image: /images/2017/01/mesto-vstrechi.jpg
+image: https://cf.jare.io?u=http://ru.yegor256.com/images/2017/01/mesto-vstrechi.jpg
 jb_picture:
   caption: Место встречи изменить нельзя (1979)
 ---
