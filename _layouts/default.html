@@ -11,9 +11,9 @@ layout: compress
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
     <meta name="google-site-verification" content="JEj_gQr2CPe2QKGw8XdMz0R7VboQIUbX3FlM-lwTq-8" />
     <meta name="og:site_name" content="{{ site.author.name }}"/>
-    <meta name="og:title" content="{{ page.title }}" />
-    <meta name="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta name="og:description" content="{{ page.description }}" />
+    <meta name="og:title" property="twitter:title" content="{{ page.title }}" />
+    <meta name="og:url" property="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="og:description" property="twitter:description" content="{{ page.description }}" />
     <link rel="shortcut icon" href="http://www.yegor256.com/favicon.ico"/>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="http://www.yegor256.com/css/layout.css"/>
@@ -34,17 +34,26 @@ layout: compress
         </div>
         <nav>
           <ul class="menu social notranslate">
-            <li><a href="https://twitter.com/intent/follow?screen_name=yegor256" rel="nofollow" title="читайте меня на Twitter"><i class="icon icon-twitter notranslate" aria-hidden="true"></i></a></li>
-            <li><a href="/rss.xml" title="RSS лента"><i class="icon icon-rss notranslate" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.facebook.com/yegor256" rel="nofollow" title="читайте меня на Facebook"><i class="icon icon-facebook notranslate" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.instagram.com/yegor256/" rel="nofollow" title="смотрите меня на Instagram"><i class="icon icon-instagram notranslate" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/yegor256" rel="nofollow" title="мой LinkedIn профиль"><i class="icon icon-linkedin notranslate" aria-hidden="true"></i></a></li>
-            <li><a href="mailto:ru@yegor256.com" rel="nofollow" title="ru@yegor256.com"><i class="icon icon-mail notranslate" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/intent/follow?screen_name=yegor256" rel="nofollow"
+              title="Читайте меня на Twitter"><i class="icon icon-twitter notranslate" aria-hidden="true"></i></a></li>
+            <li><a href="/rss.xml"
+              title="RSS лента"><i class="icon icon-rss notranslate" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/yegor256" rel="nofollow"
+              title="Читайте меня на Facebook"><i class="icon icon-facebook notranslate" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/yegor256/" rel="nofollow"
+              title="Смотрите меня на Instagram"><i class="icon icon-instagram notranslate" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/yegor256" rel="nofollow"
+              title="Мой LinkedIn профиль"><i class="icon icon-linkedin notranslate" aria-hidden="true"></i></a></li>
+            <li><a href="mailto:ru@yegor256.com" rel="nofollow"
+              title="ru@yegor256.com"><i class="icon icon-mail notranslate" aria-hidden="true"></i></a></li>
           </ul>
           <ul class="menu">
-            <li><a href="/" title="главная">Главная</a></li>
-            <li><a href="http://www.yegor256.com/about-me.html" title="об авторе">Об авторе</a></li>
-            <!-- <li><a href="/contents.html" title="все статьи">Все&#160;{{ site.posts.size }}</a></li> -->
+            <li><a href="/"
+              title="Главная страница">главная</a></li>
+            <li><a href="/contents.html"
+              title="Все {{ site.posts.size }} статьи">содержание</a></li>
+            <li><a href="http://www.yegor256.com/about-me.html"
+              title="Подробнее об авторе">об&#160;авторе</a></li>
           </ul>
         </nav>
         <div class="search">
