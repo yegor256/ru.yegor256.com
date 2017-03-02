@@ -15,7 +15,7 @@ keywords:
 exclude_from_search: true
 ---
 
-Содержание блога, все {{ site.posts.size }} статей:
+Всего: {{ site.posts.size }}.
 
 {% for post in site.posts %}
   <div>
