@@ -11,9 +11,13 @@ layout: compress
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
     <meta name="google-site-verification" content="JEj_gQr2CPe2QKGw8XdMz0R7VboQIUbX3FlM-lwTq-8" />
     <meta name="og:site_name" content="{{ site.author.name }}"/>
-    <meta name="og:title" property="twitter:title" content="{{ page.title }}" />
-    <meta name="og:url" property="twitter:url" content="{{ site.url }}{{ page.url }}" />
     <meta name="og:description" property="twitter:description" content="{{ page.description }}" />
+    <meta name="twitter:account_id" content="4503599630178231" />
+    <meta name="twitter:creator" content="@yegor256"/>
+    <meta name="twitter:site" content="@yegor256"/>
+    <meta name="twitter:title" property="og:title" content="{{ page.title }}"/>
+    <meta name="twitter:description" property="og:description" content="{{ page | description }}"/>
+    <meta name="twitter:url" property="og:url" content="{{ site.url }}{{ page.url }}"/>
     <link rel="shortcut icon" href="http://www.yegor256.com/favicon.ico"/>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="http://www.yegor256.com/css/layout.css"/>
