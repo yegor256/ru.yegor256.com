@@ -12,7 +12,7 @@ keywords:
   - коррупция
   - украина
   - индекс коррупции
-image: https://cf.jare.io?u=http://ru.yegor256.com/images/2017/01/corruption.jpg
+image: /images/2017/01/corruption.jpg
 jb_picture:
   caption: ua1.com.ua
 ---

@@ -12,7 +12,7 @@ keywords:
   - коррупция
   - бюджет
   - мустафа наем
-image: https://cf.jare.io?u=http://ru.yegor256.com/images/2017/01/budget.jpg
+image: /images/2017/01/budget.jpg
 jb_picture:
   caption: УНИАН
 ---

@@ -12,7 +12,7 @@ keywords:
   - национализм
   - антисемитизм
   - ненависть
-image: https://cf.jare.io?u=http://ru.yegor256.com/images/2017/02/nationalism.jpg
+image: /images/2017/02/nationalism.jpg
 jb_picture:
   caption: kommersant.ru
 ---

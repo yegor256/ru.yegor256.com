@@ -14,7 +14,7 @@ keywords:
   - яценюк
   - гройсман
   - азаров
-image: https://cf.jare.io?u=http://ru.yegor256.com/images/2016/12/voting.jpg
+image: /images/2016/12/voting.jpg
 jb_picture:
   caption: lenta.ru
 ---

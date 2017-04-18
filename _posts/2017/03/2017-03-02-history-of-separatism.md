@@ -12,7 +12,7 @@ keywords:
   - война
   - сепаратизм
   - государство
-image: https://cf.jare.io?u=http://ru.yegor256.com/images/2017/03/indians.jpg
+image: /images/2017/03/indians.jpg
 jb_picture:
   caption: cont.ws
 ---

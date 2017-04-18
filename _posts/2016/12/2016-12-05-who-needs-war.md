@@ -12,7 +12,7 @@ keywords:
   - война
   - АТО
   - война в Украине
-image: https://cf.jare.io?u=http://ru.yegor256.com/images/2016/12/war.jpg
+image: /images/2016/12/war.jpg
 jb_picture:
   caption: unian.net
 ---

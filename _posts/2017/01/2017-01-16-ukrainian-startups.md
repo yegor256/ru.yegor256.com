@@ -12,7 +12,7 @@ keywords:
   - национализм
   - патриотизм
   - ненависть
-image: https://cf.jare.io?u=http://ru.yegor256.com/images/2017/01/ukrainian.jpg
+image: /images/2017/01/ukrainian.jpg
 jb_picture:
   caption: studway.com.ua
 ---
