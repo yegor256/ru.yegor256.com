@@ -6,13 +6,12 @@ permalink: contents.html
 description: |
   Полное содержание блога, список всех статей
   опубликованных, начиная с ноября 2016-го года.
-image: https://cf.jare.io/?u=http://www.yegor256.com/images/yegor-is-presenting.png
+image: http://www.yegor256.com/images/yegor-is-presenting.png
 keywords:
   - политика
   - егор бугаенко
   - украинская политика
   - политика по-русски
-exclude_from_search: true
 ---
 
 Всего: {{ site.posts.size }}.
