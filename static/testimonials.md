@@ -15,7 +15,9 @@ keywords:
   - политика по-русски
 ---
 
-<img src="http://www.yegor256.com/images/angry-testimonials.png" style="float:right;margin-left:2em;margin-bottom:1em;width:220px;"/>
+<img src="http://www.yegor256.com/images/angry-testimonials.png"
+  style="float:right;margin-left:2em;margin-bottom:1em;width:220px;"
+  alt="Angry face"/>
 
 "Это вообще больной бред который даже странно комментировать"
 &mdash;
