@@ -51,7 +51,7 @@ jb_picture:
 Или это личный конфликт между двумя [давними друзьями](http://vesti-ukr.com/odessa/131930-poroshenko-ja-byl-avtoritetom-dlja-saakashvili),
 который перерос в политическое противостояние и поражение одного из них, более
 слабого и
-[плохо]({% 2016-11-28-saakashvili-speaks-ukrainian %}) говорящего по-украински?
+[плохо]({% post_url 2016-11-28-saakashvili-speaks-ukrainian %}) говорящего по-украински?
 
 Ни то, ни другое.
 
