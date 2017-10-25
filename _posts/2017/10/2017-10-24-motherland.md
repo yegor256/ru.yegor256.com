@@ -72,15 +72,19 @@ jb_picture:
 [навязывают](http://rian.com.ua/analytics/20170929/1028107706.html).
 Это не "мой" язык.
 
-**Интернет**. В моей стране мне запрещено пользоваться Интернет, пока частично.
+**Информация**. В моей стране мне запрещено пользоваться Интернет, пока частично.
 Также, как в Иране
 [закрыт доступ](http://america.aljazeera.com/opinions/2014/4/iran-twitter-rouhaniinternetcensorship.html)
 к Twitter, а в Китае
 [к Facebook](http://money.cnn.com/gallery/technology/2016/05/23/banned-china-10/4.html),
 в моей стране для меня
 [закрыт доступ](https://news.finance.ua/ru/news/-/401698/v-ukraine-zapretyat-dostup-k-vkontakte-kinopoisku-yandeksu-i-mailru-kak-obojti-blokirovku)
-к Vk.com, Ok.ru и Auto.ru. Как когда-то
-КГБ глушило "Радио Свобода" моим родителям, сейчас мне "глушат" Вконтакте. Я не могу
+к Vk.com, Ok.ru, Auto.ru
+и [прочим](http://gordonua.com/news/politics/spisok-rossiyskih-saytov-kotorye-zablokiruyut-v-ukraine-188414.html).
+Как когда-то
+КГБ глушило "Радио Свобода" моим родителям, сейчас мне "глушат" Вконтакте
+и [запрещают](https://strana.ua/news/70629-segodnya-v-ukraine-vstupil-v-silu-poryadok-izyatiya-iz-prodazhi-rossijskih-knig-i-zhurnalov.html)
+неугодную литературу. Я не могу
 считать страну моей, если она так обращается с моим
 [конституционным правом на информацию](http://www.solor.gov.ua/info/19/8264).
 Это не моя страна.
