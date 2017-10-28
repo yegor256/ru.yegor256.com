@@ -53,6 +53,11 @@ jb_picture:
 [Жадана](https://ru.wikipedia.org/wiki/%D0%96%D0%B0%D0%B4%D0%B0%D0%BD,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87).
 Это не "мои" писатели, я не хочу их читать и не могу ими гордиться.
 
+<aside class="quote">
+В борьбе с культурой народ на нашей стороне.
+<span><a href="http://shoyher.narod.ru/Letz/davidovichkn.html">Аркадий Давидович</a></span>
+</aside>
+
 **Язык**. Страна [все больше]({% post_url 2016-11-28-saakashvili-speaks-ukrainian %})
 говорит на украинском,
 чужом для меня языке. Более того, мне
