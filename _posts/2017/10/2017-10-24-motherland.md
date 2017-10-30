@@ -51,7 +51,8 @@ jb_picture:
 [Карпенко-Карого](https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%BF%D0%B5%D0%BD%D0%BA%D0%BE-%D0%9A%D0%B0%D1%80%D1%8B%D0%B9,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%9A%D0%B0%D1%80%D0%BF%D0%BE%D0%B2%D0%B8%D1%87)
 и
 [Жадана](https://ru.wikipedia.org/wiki/%D0%96%D0%B0%D0%B4%D0%B0%D0%BD,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87).
-Это не "мои" писатели, я не хочу их читать и не могу ими гордиться.
+Это не "мои" писатели, я не хочу их читать и
+[не могу ими гордиться](https://ru.espreso.tv/blogs/2016/01/11/ukraynskye_kultura_y_yazyk_mertvy).
 
 <aside class="quote">
 В борьбе с культурой народ на нашей стороне.
