@@ -8,9 +8,9 @@ description: |
 place: Одесса, Украина
 tags: коррупция
 keywords:
-  - язык
-  - культура
-  - украина
+  - коррупция
+  - оппозиция
+  - патриотизм
 image: /images/2017/11/grechka.jpg
 jb_picture:
   caption: unian.net
