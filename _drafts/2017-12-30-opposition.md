@@ -1,18 +1,18 @@
 ---
 layout: post
 date: 2017-12-06
-title: "Операция &quot;Фиктивная Оппозиция&quot;"
+title: "План &quot;Фиктивная Оппозиция&quot;"
 description: |
   ...
 place: Москва, Россия
-tags: фашизм
+tags: революция
 keywords:
-  - враги
-  - война
-  - власть
-image: /images/2017/12
+  - революция
+  - оппозиция
+  - режим
+image: /images/2018/01/fake-opposition.jpg
 jb_picture:
-  caption:
+  caption: kommersant.ru
 ---
 
 Главной задачей любого государственного режима является выживание. Главной
