@@ -131,7 +131,7 @@ jb_picture:
 Театральная оппозиция во главе с бессменным Жириновским наглядно демонстрирует,
 что Путин умеет вести двойную игру и договариваться с противниками.
 Не всех он "мочит в сортирах", как делают обычно глупые диктаторы.
-Кому-то он платит, как [Кадырову](https://www.segodnya.ua/world/nevzorov-putin-platit-dan-chechne-za-mir-dlya-rf-1022080.html)),
+Кому-то он платит, как [Кадырову](https://www.segodnya.ua/world/nevzorov-putin-platit-dan-chechne-za-mir-dlya-rf-1022080.html),
 с кем-то делится сценой и славой, как с Собчак и Навальным,
 кого-то [просто убивает](https://republic.ru/russia/politicheskie_ubiystva_v_sovremennoy_rossii-1220581.xhtml)
 &mdash; в каждом случае
