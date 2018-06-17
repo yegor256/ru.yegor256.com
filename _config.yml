@@ -4,7 +4,7 @@ description: >
   Это русскоязычный раздел моего блога, где я
   пишу в основном о политике и в основном в Украине
 baseurl: ""
-url: "http://ru.yegor256.com"
+url: "https://ru.yegor256.com"
 twitter_username: yegor256
 github_username: yegor256
 markdown: kramdown
