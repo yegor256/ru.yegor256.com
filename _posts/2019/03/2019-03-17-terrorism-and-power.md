@@ -26,7 +26,7 @@ jb_picture:
 весь Евросоюз в лице
 [Федерики Могерини](https://eeas.europa.eu/headquarters/headquarters-homepage/59634/statement-high-representativevice-president-federica-mogherini-terrorist-attacks-christchurch_en),
 и многие другие. Событие, безусловно, трагическое. Однако,
-сейчас интересно другое: почему подобные событие привлекают наше внимание и внимание наших лидеров?
+сейчас интересно другое: почему подобные события привлекают наше внимание и внимание наших лидеров?
 Только ли в силу своего трагизма или есть другие причины?
 
 {% jb_picture_body %}
