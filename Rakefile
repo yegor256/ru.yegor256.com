@@ -35,11 +35,10 @@ end
 
 desc 'Lint SASS sources'
 SCSSLint::RakeTask.new do |t|
-  f = Tempfile.new(['bloghacks-', '.scss'])
-  f << File.open('css/main.scss').drop(2).join("\n")
-  f.flush
-  f.close
-  t.files = Dir.glob([f.path])
+  f = '_temp/all.scss'
+  FileUtils.mkdir_p(File.dirname(f))
+  IO.write(f, File.open('css/main.scss').drop(2).join("\n"))
+  t.files = Dir.glob([f])
 end
 
 desc 'Build Jekyll site'
