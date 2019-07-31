@@ -1,7 +1,7 @@
 language: ruby
 sudo: false
 rvm:
-  - 2.2.2
+  - 2.6.0
 cache: bundler
 branches:
   only:
@@ -19,9 +19,9 @@ before_install:
   - mv id_rsa ~/.ssh
   - chmod 600 ~/.ssh/id_rsa
 install:
-  - travis_retry bundle install
+  - travis_retry bundle install --no-color
 script:
   - set -e
-  - rake
+  - bundle exec rake
   - export JEKYLL_ENV=production
   - jgd -u git@github.com:yegor256/ru.yegor256.com.git
