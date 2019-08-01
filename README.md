@@ -1,7 +1,7 @@
 <img src="https://www.yegor256.com/images/icon.svg" width="64px" height="64px" />
 
 [![Availability at SixNines](http://www.sixnines.io/b/40fb)](http://www.sixnines.io/h/40fb)
-[![Hits-of-Code](https://hitsofcode.com/github/yegor256/blog)](https://hitsofcode.com/view/github/yegor256/blog)
+[![Hits-of-Code](https://hitsofcode.com/github/yegor256/ru.yegor256.com)](https://hitsofcode.com/view/github/yegor256/ru.yegor256.com)
 
 [![Build Status](https://travis-ci.org/yegor256/ru.yegor256.com.svg?branch=master)](https://travis-ci.org/yegor256/ru.yegor256.com)
 
