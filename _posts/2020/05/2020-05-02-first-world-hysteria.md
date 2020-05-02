@@ -15,7 +15,9 @@ jb_picture:
   caption: currenttime.tv
 ---
 
-Ни для кого не секрет, что эпидемия коронавируса --- это искусственно
+Ни для кого не секрет, что
+[эпидемия коронавируса](https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BD%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F_COVID-19)
+--- это искусственно
 созданная [истерия](https://hromadske.ua/ru/posts/isteriya-iz-za-malenkogo-grippa-prezident-brazilii-zayavil-chto-lyudyam-govoryat-nepravdu-ob-opasnostyah-koronavirusa),
 ни к вирусам, ни к эпидемиям [никакого](https://www.klerk.ru/blogs/turov/496842/) отношения
 не имеющая, а ее авторы преследуют цели, совершенно
