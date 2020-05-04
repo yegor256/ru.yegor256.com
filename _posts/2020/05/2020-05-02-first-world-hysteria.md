@@ -148,7 +148,9 @@ jb_picture:
     же из Китая распростанителя мировой инфекции, можно
     [существенно](https://korrespondent.net/world/4223863-ssha-hotoviat-protyv-kytaia-sanktsyy-za-COVID-19-smy)
     навредить как репутации КНР, так и ее
-    [экономике](https://www.newsru.com/finance/17apr2020/china_vvp.html).
+    [экономике](https://www.newsru.com/finance/17apr2020/china_vvp.html)
+    (например, [аннулировав](https://strana.ua/news/260685-koronavirus-v-mire-v-ssha-vystavili-isk-kitaju-na-1-2-trilliona-dollarov.html) триллион
+    [внешнего долга](https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BB%D0%B3_%D0%A1%D0%A8%D0%90)).
 
 Уверен, есть и [другие версии](https://vesti.ua/mir/kokain-i-satanisty-demokraty-pochemu-koronavirus-schitayut-teoriej-zagovora),
 однако теории о
