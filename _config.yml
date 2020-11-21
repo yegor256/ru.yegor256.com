@@ -22,7 +22,7 @@ exclude:
   - LICENSE.txt
   - id_rsa.enc
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
