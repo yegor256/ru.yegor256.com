@@ -3,7 +3,7 @@
 [![Availability at SixNines](http://www.sixnines.io/b/40fb)](http://www.sixnines.io/h/40fb)
 [![Hits-of-Code](https://hitsofcode.com/github/yegor256/ru.yegor256.com)](https://hitsofcode.com/view/github/yegor256/ru.yegor256.com)
 
-[![Build Status](https://travis-ci.org/yegor256/ru.yegor256.com.svg?branch=master)](https://travis-ci.org/yegor256/ru.yegor256.com)
+[![jekyll](https://github.com/yegor256/ru.yegor256.com/actions/workflows/jekyll.yml/badge.svg)](https://github.com/yegor256/ru.yegor256.com/actions/workflows/jekyll.yml)
 
 Check this blog at [ru.yegor256.com](http://ru.yegor256.com).
 
