@@ -24,7 +24,7 @@ task default: [
 ]
 
 def done(msg)
-  puts msg + "\n\n"
+  puts "#{msg}\n\n"
 end
 
 desc 'Delete _site directory'
@@ -37,7 +37,7 @@ desc 'Lint SASS sources'
 SCSSLint::RakeTask.new do |t|
   f = '_temp/all.scss'
   FileUtils.mkdir_p(File.dirname(f))
-  IO.write(f, File.open('css/main.scss').drop(2).join("\n"))
+  File.write(f, File.open('css/main.scss').drop(2).join("\n"))
   t.files = Dir.glob([f])
 end
 
@@ -85,7 +85,7 @@ task w3c: [:build] do
     results = validator.validate_file(file)
     if results.errors.empty?
       results.errors.each do |err|
-        puts err.to_s
+        puts err
       end
       raise "Page #{file} is not W3C compliant"
     end
@@ -121,7 +121,7 @@ task orphans: [:build] do
     .select { |a| a.start_with? 'http://bloghacks.yegor256.com/' }
     .map { |a| a.gsub(/#.*/, '') }
   links += Dir['_site/**/*.html']
-    .map { |f| f.gsub(/_site/, 'http://bloghacks.yegor256.com') }
+    .map { |f| f.gsub('_site', 'http://bloghacks.yegor256.com') }
   counts = {}
   links
     .select { |a| a.match %r{.*/[0-9]{4}/[0-9]{2}/[0-9]{2}/.*} }
