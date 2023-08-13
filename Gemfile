@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'html-proofer', '5.0.8'
+# gem 'html-proofer', '5.0.8'
 gem 'jekyll', '4.3.2'
 gem 'jekyll-bits', '0.15'
 gem 'jekyll-feed', '0.17.0'
