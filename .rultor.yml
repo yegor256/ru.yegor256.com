@@ -1,7 +1,22 @@
 docker:
   image: yegor256/blog-image:0.0.5
+assets:
+  secrets.yml: "yegor256/home#assets/blog/secrets.yml"
+  id_rsa: "yegor256/home#assets/blog/id_rsa"
+  id_rsa.pub: "yegor256/home#assets/blog/id_rsa.pub"
 install: |
   sudo bundle install --no-color "--gemfile=$(pwd)/Gemfile"
 merge:
   script: |
     LC_ALL=en_US.UTF-8 bundle exec rake
+deploy:
+  script: |
+    export JEKYLL_ENV=production
+    LC_ALL=en_US.UTF-8 bundle exec rake
+    mkdir ~/.ssh
+    mv ../id_rsa ../id_rsa.pub ~/.ssh
+    chmod -R 600 ~/.ssh/*
+    echo -e "Host *\n  StrictHostKeyChecking no\n  UserKnownHostsFile=/dev/null" > ~/.ssh/config
+    git config --global user.email "rultor@yegor256.com"
+    git config --global user.name "Rultor"
+    LC_ALL=en_US.UTF-8 jgd
