@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<section itemscope="" itemtype="http://schema.org/BlogPosting">
+  <div class="wrapper">
+    <main>
+      <article class="main" itemprop="articleBody" style="font-family: sans-serif;">
+        <p style="color: #C42C00;">The following text is a translation of the
+          <a href='{{ site.url }}/{{ page.url | replace: "/eng/", "" | replace: "-eng", ".html" }}'>original article</a>,
+          <br/>
+          performed by <a href="https://chat.openai.com/">ChatGPT</a>:</p>
+        {{ content }}
+      </article>
+    </main>
+  </div>
+  <div class="wrapper">
+    <footer class="footer">
+      <p>
+        &copy;
+        <span itemscope="" itemprop="copyrightHolder" itemtype="http://schema.org/Person">
+          <span itemprop="name">Егор Бугаенко</span>
+        </span>,
+        2014-<span itemprop="copyrightYear">2023</span>
+      </p>
+    </footer>
+  </div>
+</section>
