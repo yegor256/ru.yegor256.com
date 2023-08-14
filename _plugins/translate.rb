@@ -31,7 +31,7 @@ module Jekyll
       key = File.exist?(secrets) ? YAML.safe_load(File.open(secrets))['openai_api_key'] : nil
       client = OpenAI::Client.new(
         access_token: key,
-        request_timeout: 240
+        request_timeout: 600
       )
       model = 'gpt-3.5-turbo'
       start = Time.now
