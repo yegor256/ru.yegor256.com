@@ -27,7 +27,8 @@ module Jekyll
   class EngGenerator < Generator
     priority :low
     def generate(site)
-      key = ENV['OPENAI_API_KEY']
+      secrets = File.expand_path('~/secrets.yml')
+      key = File.exist?(secrets) ? YAML.safe_load(File.open(secrets))['openai_api_key'] : nil
       client = OpenAI::Client.new(
         access_token: key,
         request_timeout: 240
@@ -38,29 +39,30 @@ module Jekyll
       site.posts.docs.each do |doc|
         pstart = Time.now
         text = doc.content.split(/\n{2,}/).compact.map do |par|
-          par.gsub!(/\n/, ' ')
+          par.gsub!("\n", ' ')
           par.gsub!(/\s{2,}/, ' ')
           next unless par =~ /^[А-Я]/
           par = Redcarpet::Markdown.new(Strip).render(par)
           if key.nil?
-            puts "OPENAI_API_KEY environment var is not available, can't translate #{par.split(' ').count} Russian words"
+            puts "OpenAI key is not available, can't translate #{par.split.count} Russian words"
             par
+          elsif par.length >= 32
+            response = client.chat(
+              parameters: {
+                model: model,
+                messages: [{
+                  role: 'user',
+                  content: "Пожалуйста, переведи этот параграф на английский язык:\n\n#{par}"
+                }],
+                temperature: 0.7
+              }
+            )
+            t = response.dig('choices', 0, 'message', 'content')
+            puts "Translated #{par.split.count} Russian words to #{t.split.count} English words through #{model}"
+            t
           else
-            if par.length >= 32
-              response = client.chat(
-                parameters: {
-                  model: model,
-                  messages: [{ role: 'user', content: "Пожалуйста, переведи этот параграф на английский язык:\n\n#{par}"}],
-                  temperature: 0.7,
-                }
-              )
-              t = response.dig('choices', 0, 'message', 'content')
-              puts "Translated #{par.split(' ').count} Russian words to #{t.split(' ').count} English words through #{model}"
-              t
-            else
-              puts "Not translating this, b/c too short: \"#{par}\""
-              par
-            end
+            puts "Not translating this, b/c too short: \"#{par}\""
+            par
           end
         end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
         yaml = "---\nlayout: eng\nmodel: #{model}\n---\n\n#{text}"
@@ -76,21 +78,19 @@ module Jekyll
     end
   end
 
+  # Markdown to pain text.
   class Strip < Redcarpet::Render::Base
     [
       # block-level calls
       :block_code, :block_quote,
       :block_html, :list, :list_item,
-
       # span-level calls
       :autolink, :codespan, :double_emphasis,
       :emphasis, :underline, :raw_html,
       :triple_emphasis, :strikethrough,
       :superscript, :highlight, :quote,
-
       # footnotes
       :footnotes, :footnote_def, :footnote_ref,
-
       # low level rendering
       :entity, :normal_text
     ].each do |method|
@@ -98,10 +98,12 @@ module Jekyll
         args.first
       end
     end
+
     def paragraph(text)
       text
     end
-    def link(link, title, content)
+
+    def link(_link, _title, content)
       content
     end
   end
