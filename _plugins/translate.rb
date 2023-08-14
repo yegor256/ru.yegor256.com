@@ -47,7 +47,8 @@ module Jekyll
             puts "OpenAI key is not available, can't translate #{par.split.count} Russian words"
             par
           elsif par.length >= 32
-            t = begin
+            t = nil
+            begin
               response = client.chat(
                 parameters: {
                   model: model,
@@ -58,12 +59,17 @@ module Jekyll
                   temperature: 0.7
                 }
               )
-              response.dig('choices', 0, 'message', 'content')
+              t = response.dig('choices', 0, 'message', 'content')
             rescue Net::ReadTimeout
               retry
             end
-            puts "Translated #{par.split.count} Russian words to #{t.split.count} English words through #{model}"
-            t
+            if t.nil?
+              puts "Failed to translate #{par.split.count} Russian words :("
+              'FAILED TO TRANSLATE THIS PARAGRAPH'
+            else
+              puts "Translated #{par.split.count} Russian words to #{t.split.count} English words through #{model}"
+              t
+            end
           else
             puts "Not translating this, b/c too short: \"#{par}\""
             par
