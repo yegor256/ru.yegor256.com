@@ -60,7 +60,7 @@ module Jekyll
                 }
               )
               t = response.dig('choices', 0, 'message', 'content')
-            rescue Net::ReadTimeout
+            rescue StandardError
               retry
             end
             if t.nil?
