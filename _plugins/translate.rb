@@ -47,17 +47,21 @@ module Jekyll
             puts "OpenAI key is not available, can't translate #{par.split.count} Russian words"
             par
           elsif par.length >= 32
-            response = client.chat(
-              parameters: {
-                model: model,
-                messages: [{
-                  role: 'user',
-                  content: "Пожалуйста, переведи этот параграф на английский язык:\n\n#{par}"
-                }],
-                temperature: 0.7
-              }
-            )
-            t = response.dig('choices', 0, 'message', 'content')
+            t = begin
+              response = client.chat(
+                parameters: {
+                  model: model,
+                  messages: [{
+                    role: 'user',
+                    content: "Пожалуйста, переведи этот параграф на английский язык:\n\n#{par}"
+                  }],
+                  temperature: 0.7
+                }
+              )
+              response.dig('choices', 0, 'message', 'content')
+            rescue Net::ReadTimeout
+              retry
+            end
             puts "Translated #{par.split.count} Russian words to #{t.split.count} English words through #{model}"
             t
           else
