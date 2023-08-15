@@ -40,44 +40,44 @@ module Jekyll
         pstart = Time.now
         rus = doc.content
         text = if key.nil?
-                 puts "OpenAI key is not available, can't translate #{rus.split.count} Russian words"
-                 rus
-               else
-                 rus.split(/\n{2,}/).compact.map do |par|
-                   par.gsub!("\n", ' ')
-                   par.gsub!(/\s{2,}/, ' ')
-                   next unless par =~ /^[А-Я]/
-                   par = Redcarpet::Markdown.new(Strip).render(par)
-                   if par.length >= 32
-                     t = nil
-                     begin
-                       response = client.chat(
-                         parameters: {
-                           model: model,
-                           messages: [{
-                             role: 'user',
-                             content: "Пожалуйста, переведи этот параграф на английский язык:\n\n#{par}"
-                           }],
-                           temperature: 0.7
-                         }
-                       )
-                       t = response.dig('choices', 0, 'message', 'content')
-                     rescue StandardError
-                       retry
-                     end
-                     if t.nil?
-                       puts "Failed to translate #{par.split.count} Russian words :("
-                       'FAILED TO TRANSLATE THIS PARAGRAPH'
-                     else
-                       puts "Translated #{par.split.count} words to #{t.split.count} English words through #{model}"
-                       t
-                     end
-                   else
-                     puts "Not translating this, b/c too short: \"#{par}\""
-                     par
-                   end
-                 end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
-               end
+          puts "OpenAI key is not available, can't translate #{rus.split.count} Russian words"
+          rus
+        else
+          rus.split(/\n{2,}/).compact.map do |par|
+            par.gsub!("\n", ' ')
+            par.gsub!(/\s{2,}/, ' ')
+            next unless par =~ /^[А-Я]/
+            par = Redcarpet::Markdown.new(Strip).render(par)
+            if par.length >= 32
+              t = nil
+              begin
+                response = client.chat(
+                  parameters: {
+                    model: model,
+                    messages: [{
+                      role: 'user',
+                      content: "Пожалуйста, переведи этот параграф на английский язык:\n\n#{par}"
+                    }],
+                    temperature: 0.7
+                  }
+                )
+                t = response.dig('choices', 0, 'message', 'content')
+              rescue StandardError
+                retry
+              end
+              if t.nil?
+                puts "Failed to translate #{par.split.count} Russian words :("
+                'FAILED TO TRANSLATE THIS PARAGRAPH'
+              else
+                puts "Translated #{par.split.count} words to #{t.split.count} English words through #{model}"
+                t
+              end
+            else
+              puts "Not translating this, b/c too short: \"#{par}\""
+              par
+            end
+          end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
+        end
         yaml = "---\nlayout: eng\nmodel: #{model}\n---\n\n#{text}"
         path = "eng/#{doc.basename.gsub(/\.md$/, '-eng.md')}"
         FileUtils.mkdir_p(File.dirname(path))

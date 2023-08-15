@@ -21,3 +21,9 @@ Metrics/CyclomaticComplexity:
   Max: 15
 Metrics/PerceivedComplexity:
   Max: 15
+Layout/IndentationWidth:
+  Enabled: false
+Layout/ElseAlignment:
+  Enabled: false
+Layout/EndAlignment:
+  Enabled: false
