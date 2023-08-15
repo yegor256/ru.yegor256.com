@@ -46,7 +46,7 @@ task :build do
   if File.exist? '_site'
     done 'Jekyll site already exists in _site'
   else
-    system('jekyll build')
+    system('jekyll build --incremental')
     raise 'Jekyll failed' unless $CHILD_STATUS.success?
     done 'Jekyll site generated without issues'
   end
