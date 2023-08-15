@@ -33,57 +33,25 @@ module Jekyll
         access_token: key,
         request_timeout: 600
       )
-      model = 'gpt-3.5-turbo'
       start = Time.now
       total = 0
       site.posts.docs.each do |doc|
         pstart = Time.now
         rus = doc.content
+        txt = "eng-txt/#{doc.basename.gsub(/\.md$/, '-eng.txt')}"
         text = if key.nil?
           puts "OpenAI key is not available, can't translate #{rus.split.count} Russian words"
           rus
+        elsif Net::HTTP.get_response("https://ru.yegor256.com/#{txt}").is_a?(Net::HTTPSuccess)
+          puts "OpenAI key is not available, can't translate #{rus.split.count} Russian words"
         else
-          rus.split(/\n{2,}/).compact.map do |par|
-            par.gsub!("\n", ' ')
-            par.gsub!(/\s{2,}/, ' ')
-            next unless par =~ /^[А-Я]/
-            par = Redcarpet::Markdown.new(Strip).render(par)
-            if par.length >= 32
-              t = nil
-              begin
-                response = client.chat(
-                  parameters: {
-                    model: model,
-                    messages: [{
-                      role: 'user',
-                      content: "Пожалуйста, переведи этот параграф на английский язык:\n\n#{par}"
-                    }],
-                    temperature: 0.7
-                  }
-                )
-                t = response.dig('choices', 0, 'message', 'content')
-              rescue StandardError
-                retry
-              end
-              if t.nil?
-                puts "Failed to translate #{par.split.count} Russian words :("
-                'FAILED TO TRANSLATE THIS PARAGRAPH'
-              else
-                puts "Translated #{par.split.count} words to #{t.split.count} English words through #{model}"
-                t
-              end
-            else
-              puts "Not translating this, b/c too short: \"#{par}\""
-              par
-            end
-          end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
+          gpt(client, rus)
         end
-        yaml = "---\nlayout: eng\nmodel: #{model}\n---\n\n#{text}"
+        yaml = "---\nlayout: eng\n---\n\n#{text}"
         path = "eng/#{doc.basename.gsub(/\.md$/, '-eng.md')}"
         FileUtils.mkdir_p(File.dirname(path))
         File.write(path, yaml)
         site.pages << Page.new(site, site.source, File.dirname(path), File.basename(path))
-        txt = "eng-txt/#{doc.basename.gsub(/\.md$/, '-eng.txt')}"
         FileUtils.mkdir_p(File.dirname(txt))
         File.write(txt, text)
         site.static_files << StaticFile.new(site, site.source, File.dirname(txt), File.basename(txt))
@@ -91,6 +59,44 @@ module Jekyll
         total += 1
       end
       puts "#{total} English pages generated in #{(Time.now - start).round(2)}s"
+    end
+
+    def gpt(client, rus)
+      model = 'gpt-3.5-turbo'
+      rus.split(/\n{2,}/).compact.map do |par|
+        par.gsub!("\n", ' ')
+        par.gsub!(/\s{2,}/, ' ')
+        next unless par =~ /^[А-Я]/
+        par = Redcarpet::Markdown.new(Strip).render(par)
+        if par.length >= 32
+          t = nil
+          begin
+            response = client.chat(
+              parameters: {
+                model: model,
+                messages: [{
+                  role: 'user',
+                  content: "Пожалуйста, переведи этот параграф на английский язык:\n\n#{par}"
+                }],
+                temperature: 0.7
+              }
+            )
+            t = response.dig('choices', 0, 'message', 'content')
+          rescue StandardError
+            retry
+          end
+          if t.nil?
+            puts "Failed to translate #{par.split.count} Russian words :("
+            'FAILED TO TRANSLATE THIS PARAGRAPH'
+          else
+            puts "Translated #{par.split.count} words to #{t.split.count} English words through #{model}"
+            t
+          end
+        else
+          puts "Not translating this, b/c too short: \"#{par}\""
+          par
+        end
+      end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
     end
   end
 
