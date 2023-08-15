@@ -77,10 +77,13 @@ module Jekyll
         end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
         yaml = "---\nlayout: eng\nmodel: #{model}\n---\n\n#{text}"
         path = "eng/#{doc.basename.gsub(/\.md$/, '-eng.md')}"
-        dir = File.dirname(path)
-        FileUtils.mkdir_p(dir)
+        FileUtils.mkdir_p(File.dirname(path))
         File.write(path, yaml)
-        site.pages << Page.new(site, site.source, dir, File.basename(path))
+        site.pages << Page.new(site, site.source, File.dirname(path), File.basename(path))
+        txt = "eng-txt/#{doc.basename.gsub(/\.md$/, '-eng.txt')}"
+        FileUtils.mkdir_p(File.dirname(txt))
+        File.write(txt, text)
+        site.static_files << StaticFile.new(site, site.source, File.dirname(txt), File.basename(txt))
         puts "Translated #{doc.basename} to English in #{(Time.now - pstart).round(2)}s"
         total += 1
       end

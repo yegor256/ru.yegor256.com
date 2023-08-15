@@ -6,3 +6,4 @@ Gemfile.lock
 _temp/
 .jekyll-cache/
 eng/
+eng-txt/
