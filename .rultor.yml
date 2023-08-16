@@ -6,8 +6,8 @@ assets:
   id_rsa.pub: "yegor256/home#assets/blog/id_rsa.pub"
 install: |
   sudo bundle install --no-color "--gemfile=$(pwd)/Gemfile"
-  curl http://curl.haxx.se/ca/cacert.pem >> "$(pwd)/cacert.pem"
-  export "SSL_CERT_FILE=$(pwd)/cacert.pem"
+  wget -P /tmp http://curl.haxx.se/ca/cacert.pem
+  export "SSL_CERT_FILE=/tmp/cacert.pem"
 merge:
   script: |
     LC_ALL=en_US.UTF-8 bundle exec rake
