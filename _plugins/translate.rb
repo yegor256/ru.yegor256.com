@@ -20,6 +20,8 @@
 
 require 'openai'
 require 'redcarpet'
+require 'net/http'
+require 'uri'
 
 # Jekyll module
 module Jekyll
@@ -64,7 +66,7 @@ module Jekyll
         return rus
       end
       uri = "https://ru.yegor256.com/#{txt}"
-      before = Net::HTTP.get_response(uri)
+      before = Net::HTTP.get_response(URI(uri))
       if before.is_a?(Net::HTTPSuccess)
         puts "No need to translate, translation found at #{uri} (#{before.body.split.count} words)"
         return before.body
@@ -74,7 +76,7 @@ module Jekyll
 
     def gpt(client, rus)
       model = 'gpt-3.5-turbo'
-      rus.split("\n\n").compact.map do |par|
+      body = rus.split("\n\n").compact.map do |par|
         if par.length >= 32
           t = nil
           begin
@@ -104,6 +106,7 @@ module Jekyll
           par
         end
       end.join("\n\n")
+      "#{body}\n\nTranslated by #{model} on #{Time.now}."
     end
   end
 
