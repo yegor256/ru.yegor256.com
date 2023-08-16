@@ -71,6 +71,7 @@ module Jekyll
         puts "No need to translate, translation found at #{uri} (#{before.body.split.count} words)"
         return before.body
       end
+      puts "GET #{uri}: #{before.code}"
       gpt(OpenAI::Client.new(access_token: key), rus)
     end
 
