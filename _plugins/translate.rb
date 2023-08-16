@@ -32,7 +32,7 @@ module Jekyll
       site.posts.docs.each do |doc|
         pstart = Time.now
         txt = "eng-txt/#{doc.basename.gsub(/\.md$/, '-eng.txt')}"
-        text = translate(doc.content, txt)
+        text = translate(to_text(doc.content), txt)
         yaml = "---\nlayout: eng\n---\n\n#{text}"
         path = "eng/#{doc.basename.gsub(/\.md$/, '-eng.md')}"
         FileUtils.mkdir_p(File.dirname(path))
@@ -45,6 +45,15 @@ module Jekyll
         total += 1
       end
       puts "#{total} English pages generated in #{(Time.now - start).round(2)}s"
+    end
+
+    def to_text(md)
+      md.split(/\n{2,}/).compact.map do |par|
+        par.gsub!("\n", ' ')
+        par.gsub!(/\s{2,}/, ' ')
+        next unless par =~ /^[А-Я]/
+        par = Redcarpet::Markdown.new(Strip).render(par)
+      end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
     end
 
     def translate(rus, txt)
@@ -65,11 +74,7 @@ module Jekyll
 
     def gpt(client, rus)
       model = 'gpt-3.5-turbo'
-      rus.split(/\n{2,}/).compact.map do |par|
-        par.gsub!("\n", ' ')
-        par.gsub!(/\s{2,}/, ' ')
-        next unless par =~ /^[А-Я]/
-        par = Redcarpet::Markdown.new(Strip).render(par)
+      rus.split(/\n\n/).compact.map do |par|
         if par.length >= 32
           t = nil
           begin
@@ -98,7 +103,7 @@ module Jekyll
           puts "Not translating this, b/c too short: \"#{par}\""
           par
         end
-      end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
+      end.join("\n\n")
     end
   end
 
