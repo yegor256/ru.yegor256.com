@@ -33,7 +33,7 @@ module Jekyll
         pstart = Time.now
         txt = "eng-txt/#{doc.basename.gsub(/\.md$/, '-eng.txt')}"
         text = translate(to_text(doc.content), txt)
-        yaml = "---\nlayout: eng\n---\n\n#{text}"
+        yaml = "---\nlayout: eng\ntitle: #{doc.data['title']}\n---\n\n#{text}"
         path = "eng/#{doc.basename.gsub(/\.md$/, '-eng.md')}"
         FileUtils.mkdir_p(File.dirname(path))
         File.write(path, yaml)

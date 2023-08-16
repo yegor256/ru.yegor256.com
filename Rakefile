@@ -30,6 +30,8 @@ end
 desc 'Delete _site directory'
 task :clean do
   rm_rf '_site'
+  rm_rf 'eng'
+  rm_rf 'eng-txt'
   done 'Jekyll site directory deleted'
 end
 
