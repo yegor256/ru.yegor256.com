@@ -52,12 +52,15 @@ module Jekyll
       key = File.exist?(secrets) ? YAML.safe_load(File.open(secrets))['openai_api_key'] : nil
       if key.nil?
         puts "OpenAI key is not available, can't translate #{rus.split.count} Russian words"
-        rus
-      elsif Net::HTTP.get_response("https://ru.yegor256.com/#{txt}").is_a?(Net::HTTPSuccess)
-        puts "OpenAI key is not available, can't translate #{rus.split.count} Russian words"
-      else
-        gpt(OpenAI::Client.new(access_token: key), rus)
+        return rus
       end
+      uri = "https://ru.yegor256.com/#{txt}"
+      before = Net::HTTP.get_response(uri)
+      if before.is_a?(Net::HTTPSuccess)
+        puts "No need to translate, translation found at #{uri} (#{before.body.split.count} words)"
+        return before.body
+      end
+      gpt(OpenAI::Client.new(access_token: key), rus)
     end
 
     def gpt(client, rus)
