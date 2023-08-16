@@ -47,12 +47,12 @@ module Jekyll
       puts "#{total} English pages generated in #{(Time.now - start).round(2)}s"
     end
 
-    def to_text(md)
-      md.split(/\n{2,}/).compact.map do |par|
+    def to_text(markdown)
+      markdown.split(/\n{2,}/).compact.map do |par|
         par.gsub!("\n", ' ')
         par.gsub!(/\s{2,}/, ' ')
         next unless par =~ /^[А-Я]/
-        par = Redcarpet::Markdown.new(Strip).render(par)
+        Redcarpet::Markdown.new(Strip).render(par)
       end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
     end
 
@@ -74,7 +74,7 @@ module Jekyll
 
     def gpt(client, rus)
       model = 'gpt-3.5-turbo'
-      rus.split(/\n\n/).compact.map do |par|
+      rus.split("\n\n").compact.map do |par|
         if par.length >= 32
           t = nil
           begin
