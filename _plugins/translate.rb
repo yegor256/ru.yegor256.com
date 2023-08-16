@@ -27,26 +27,12 @@ module Jekyll
   class EngGenerator < Generator
     priority :low
     def generate(site)
-      secrets = File.expand_path('~/secrets.yml')
-      key = File.exist?(secrets) ? YAML.safe_load(File.open(secrets))['openai_api_key'] : nil
-      client = OpenAI::Client.new(
-        access_token: key,
-        request_timeout: 600
-      )
       start = Time.now
       total = 0
       site.posts.docs.each do |doc|
         pstart = Time.now
-        rus = doc.content
         txt = "eng-txt/#{doc.basename.gsub(/\.md$/, '-eng.txt')}"
-        text = if key.nil?
-          puts "OpenAI key is not available, can't translate #{rus.split.count} Russian words"
-          rus
-        elsif Net::HTTP.get_response("https://ru.yegor256.com/#{txt}").is_a?(Net::HTTPSuccess)
-          puts "OpenAI key is not available, can't translate #{rus.split.count} Russian words"
-        else
-          gpt(client, rus)
-        end
+        text = translate(doc.content, txt)
         yaml = "---\nlayout: eng\n---\n\n#{text}"
         path = "eng/#{doc.basename.gsub(/\.md$/, '-eng.md')}"
         FileUtils.mkdir_p(File.dirname(path))
@@ -59,6 +45,19 @@ module Jekyll
         total += 1
       end
       puts "#{total} English pages generated in #{(Time.now - start).round(2)}s"
+    end
+
+    def translate(rus, txt)
+      secrets = File.expand_path('~/secrets.yml')
+      key = File.exist?(secrets) ? YAML.safe_load(File.open(secrets))['openai_api_key'] : nil
+      if key.nil?
+        puts "OpenAI key is not available, can't translate #{rus.split.count} Russian words"
+        rus
+      elsif Net::HTTP.get_response("https://ru.yegor256.com/#{txt}").is_a?(Net::HTTPSuccess)
+        puts "OpenAI key is not available, can't translate #{rus.split.count} Russian words"
+      else
+        gpt(OpenAI::Client.new(access_token: key), rus)
+      end
     end
 
     def gpt(client, rus)
