@@ -23,6 +23,10 @@ require 'redcarpet'
 require 'net/http'
 require 'uri'
 
+# see https://stackoverflow.com/a/6048451/187141
+require 'openssl'
+OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
+
 # Jekyll module
 module Jekyll
   # The class
