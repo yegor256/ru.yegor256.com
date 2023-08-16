@@ -33,7 +33,7 @@ module Jekyll
       total = 0
       site.posts.docs.each do |doc|
         pstart = Time.now
-        txt = "eng-txt/#{doc.basename.gsub(/\.md$/, '-eng.txt')}"
+        txt = "eng-txt/#{CGI.escape(doc.basename.gsub(/\.md$/, '-eng.txt'))}"
         text = translate(to_text(doc.content), txt)
         yaml = "---\nlayout: eng\ntitle: #{doc.data['title']}\n---\n\n#{text}"
         path = "eng/#{doc.basename.gsub(/\.md$/, '-eng.md')}"
