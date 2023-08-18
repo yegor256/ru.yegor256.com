@@ -1,23 +1,29 @@
-Externally, all wars are the same: flags, slogans, heroes, cripples, and victorious marches. In all wars, people die, and calls for unity for the sake of victory over the enemy, for the defense of the homeland, are heard. Each time, soldiers on the opposite side of the field, city, or trench are called the enemy, and the homeland is the place where fire is coordinated. But are these soldiers really our true enemies, and is the homeland really there?
+Externally, all wars are the same: flags, slogans, heroes, cripples, and victory marches. In all wars, people die and calls for unity are heard in order to achieve victory over the enemy, to defend the homeland. Each time, soldiers on the opposite side of the field, city, or trench are called the enemy, and the homeland is the place where fire coordination is conducted. But are these soldiers really our true enemies, and is the homeland really there?
 
-Imagine that you are the owner of a company that manufactures equipment for metallurgical plants, and I am the owner of one such plant. You live and work in Kharkiv, while my plant is located in Donetsk. You produce equipment for me, and I buy it from you. With the help of your electronics, I produce and sell metal sheets and reinforcement bars. So, why would I want to fight with you?
+{% jb_picture_body %}
 
-Moreover, why should I defend myself against you? What motives do we have to arm ourselves and explode each other? What economic sense does it make? Work is in progress, enterprises are functioning, people are receiving salaries, production capacities are growing, profits are increasing, new technologies are being implemented. Why do we need to fight?
+<!--more-->
 
-Any war, except for economic and competitive ones, is not needed for us, manufacturers of goods and services. Moreover, it only harms us.
+Imagine that you are the owner of a company that produces equipment for metallurgical plants, and I am the owner of one such plant. You live and work in Kharkiv, while my plant is located in Donetsk. You manufacture equipment for me, and I purchase it from you. With the help of your electronics, I produce and sell metal sheets and reinforcement. Tell me, why would I want to fight with you?
+
+Furthermore, why should I defend myself against you? What motives do we have to arm ourselves and blow each other up? What economic sense does that make? The work is ongoing, enterprises are functioning, people are receiving salaries, production capacities are growing, profits are increasing, new technologies are being implemented. Why do we need to fight?
+
+Any war, except for economic and competitive ones, is unnecessary and harmful to us, producers of goods and services.
 
 Кому же она нужна?
 
-The thing is, the proposed picture lacks another important element - the state. They will not let us work and trade peacefully. States will form around us. They will convince us that we are potential enemies to each other, that all you think about is how to rob me, while I dream of seeing your factory in ruins. They will call me Ukrainian and you Russian. I will have a yellow-blue flag, and you will have a tricolor flag. I will have my own national history, and you will have yours. And to deliver my goods to you, I will have to go through border control and pay customs duties. They will divide us and enclose us with fences.
+<aside class="quote"> The slogan of defending the homeland is largely an uncritical justification for war by the ordinary people. Lenin </aside>
 
-Those who do this, namely our governments, will need war.
+The thing is, the proposed picture is missing another important element - the state. We won't be allowed to work and trade peacefully. States will form around us. They will convince us that we are potential enemies to each other, that all you think about is how to rob me, while I dream of seeing your factory in ruins. They will call me Ukrainian and you Russian. I will have a yellow-blue flag, and you will have a tricolor one. I will have my own national history, and you will have yours. And to deliver my goods to you, I will have to go through border control and pay customs fees. We will be separated and fenced off.
 
-War is necessary for the state's self-preservation. In most cases, its main enemy is its own people (there are exceptions, but they are rare). In order for us to continue working for the benefit of the officials in the state apparatus, we need to constantly convince ourselves of the value of this apparatus. Otherwise, sooner or later, you and I will get into two bulldozers and demolish this fence that has been built between us, along with the customs and checkpoint.
+Those who do this, namely our states, will need a war.
 
-To prevent this from happening, to avoid riots and revolutions, it is necessary to uphold and strengthen the value of the concept of "Homeland". We all must understand that this land is "ours", but beyond that fence, a kilometer away, it is no longer "ours". And since the Homeland is so precious, it must be defended. An army is needed, a war is needed, heroes are needed, sacrifices are needed, monuments are needed, memorials are needed, and military-patriotic events are needed. And, of course, there is a cost to defending the Homeland.
+War is necessary for the state's self-preservation. In most cases, its main enemy is its own people (there are exceptions, but they are rare). In order for us to continue working for the benefit of officials from the state apparatus, we must constantly be convinced of the value of this apparatus. Otherwise, sooner or later, you and I will sit in two bulldozers and demolish this fence that has been built between us, along with the customs and checkpoint.
 
-War is necessary for officials, but not for us. If we understand this, we will stop celebrating heroes, stop laying flowers at their monuments, and stop hanging national flags on the facades of houses and windshields. We will understand that the flag, the anthem, patriotism, and national consciousness are tools of manipulation invented by states against their own people.
+To prevent this from happening, to avoid riots and revolutions, it is necessary to uphold and reinforce the value of the concept of "Homeland". We all must understand that this land is "ours", but beyond this fence, a kilometer away, it is no longer "ours". And since the Homeland is so valuable, it must be defended. An army is needed, war is needed, heroes are needed, sacrifices are needed, monuments are needed, memorials are needed, and military-patriotic events are needed. And, of course, payment is required for the defense of the Homeland.
 
-The more visible these tools are and the more a state talks about patriotism, the more strained its relationship becomes with its own people. Consequently, it deserves less trust.
+War is necessary for bureaucrats but not for us. If we understand this, we will stop celebrating heroes, stop placing flowers at their memorials, and stop hanging national flags on the facades of buildings and windshields. We will understand that the flag, the anthem, patriotism, and national consciousness are tools of manipulation invented by states against their own people.
 
-Translated by gpt-3.5-turbo on 2023-08-16 09:08:16 +0300.
+The more visible these tools are and the more the state speaks about patriotism, the more tense its relationship with its own people becomes. Consequently, it deserves less trust.
+
+Translated by gpt-3.5-turbo/ru-0.1 on 2023-08-18 14:03:20 +0300.

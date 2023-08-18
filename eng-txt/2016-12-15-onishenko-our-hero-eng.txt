@@ -1,17 +1,21 @@
-A few days ago, a certain Alexander Onyshchenko informed the KyivPost publication about shocking information regarding corruption in the highest echelons of power in Ukraine, including the current President Poroshenko: deputies and ministers are taking bribes.
+A few days ago, a certain Alexander Onishchenko informed the KyivPost publication of shocking information about corruption in the highest echelons of power in Ukraine, including the current President Poroshenko: deputies and ministers take bribes.
+
+{% jb_picture_body %}
+
+<!--more-->
 
 Does it shock you? I don't think so, just like it doesn't shock me.
 
-I am interested in something else. By presenting such information to the court of public opinion, Onishchenko expects, I suppose, that the public will not let it go. The public is us, by the way. It's me, writing these lines in a cafe after dinner, and you, reading them somewhere now, in your office, or at home, or maybe on your phone in the subway, or perhaps also in a cafe.
+I am interested in something else. By presenting this information to the public, Onishchenko, I suppose, expects that the public will not let it slide. The public, by the way, is us. It's me, writing these lines in a café after dinner, and you, reading them somewhere at your office, or at home, or maybe on your phone in the subway, or perhaps also in a café.
 
-Onishchenko expects us to do something. After all, they are stealing our money. We elected a president, elected deputies, and they appointed ministers - these are all people whom we entrusted to manage our money. They were supposed to spend it on improving our lives: repairing roads, building hospitals, and protecting us. Instead, they stole it and improved their own lives.
+Onishchenko expects that we will do something. After all, they are stealing our money. We elected the president, elected the deputies, they appointed ministers - these are all people whom we entrusted to manage our money. They were supposed to spend it on improving our lives: repairing roads, building hospitals, protecting and defending us. Instead, they stole it and improved their own lives.
 
 What does Onishchenko inform us about? What do we do?
 
-What are you personally doing? Nothing.
+What do you personally do? Nothing.
 
 Я тоже ничего.
 
-While we are doing nothing, we will have Onishchenkos, Poroshenkos, and other Yatsenyuks.
+While we are doing nothing, we will have Onyshchenkos, Poroshenkos, and other Yatsenyuks.
 
-Translated by gpt-3.5-turbo on 2023-08-16 09:09:12 +0300.
+Translated by gpt-3.5-turbo/ru-0.1 on 2023-08-18 14:04:13 +0300.

@@ -1,13 +1,21 @@
-Our former prime minister Yatsenyuk fled in April of this year, and recently he fled completely. Before him, we had Azarov, who did the same. What feelings does this fact evoke in you, citizens of this country? And where and when do you think Groysman will flee to?
+Our former Prime Minister Yatsenyuk fled almost in April of this year and recently fled completely. Before him, we had Azarov, who did the same. What feelings does this fact evoke among you, citizens of this country? And where and when do you think Groysman will flee?
 
-I am not so much interested in these guys who replace each other and rapidly enrich themselves, as I am in us, who pay for this process. Their actions are quite logical and understandable: if there is an opportunity, get rich. They and their teams have been doing very well for the past twenty years. Only flags, names, slogans, and surnames change.
+{% jb_picture_body %}
 
-I am interested in our logic. Why do we need this? Why do we need to vote for a new president if we already know exactly how it will end? Why do we need a new Groysman if it is clear that all his work will come down to stealing our money? Who is forcing us to go and choose our own poverty?
+<!--more-->
+
+I am not so interested in these guys who replace each other and rapidly enrich themselves, as much as we, who pay for this process. Their actions are quite logical and understandable: if there is an opportunity, get rich. They and their teams have been doing very well for the past twenty years. Only flags, names, slogans, and surnames change.
+
+I am interested in our logic. Why do we need this? Why do we need to vote for a new president if we know exactly how it will end? Why do we need a new Groysman if it is clear that all his work will come down to stealing our money? Who forces us to go and choose our own poverty?
+
+- And how else? - you may ask. - Someone has to be chosen after all.
 
 Do you think someone is absolutely necessary?
 
-They understand it perfectly well too. They understand that we believe that someone must be chosen for sure. And they know that we will go and choose, while they will sit and steal, periodically replacing each other.
+They understand it perfectly well too. They understand that we believe that someone must be chosen without fail. And they know that we will go and choose, while they will sit and steal, occasionally replacing each other.
 
-Aren't you ashamed? Aren't you ashamed to go year after year and vote?
+Aren't you ashamed? Aren't you ashamed to go and vote year after year?
 
-Translated by gpt-3.5-turbo on 2023-08-16 09:09:23 +0300.
+P.S. I recommend reading "Against Elections" by David Van Reybrouck.
+
+Translated by gpt-3.5-turbo/ru-0.1 on 2023-08-18 14:04:26 +0300.

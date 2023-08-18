@@ -1,21 +1,40 @@
-Two days ago, Vladimir Putin, the 4th President of Russia, held his annual press conference, where he answered journalists' questions. There were a total of 1437 journalists present. Just under thirty questions were asked about the economy, Ulyukayev, Nemtsov, Crimea, Trump, Brexit, the ambassador's murder, stray animals, doping, and kvass. What would you ask Putin if you were at the microphone?
+Two days ago, Vladimir Putin, the 4th President of Russia, held his annual press conference where he answered questions from journalists. There were a total of 1437 journalists present. Just under thirty questions were asked about the economy, Ulyukayev, Nemtsov, Crimea, Trump, Brexit, the ambassador's murder, stray animals, doping, and kvass. What would you ask Putin if you were at the microphone?
 
-I anticipate your options. When will you return Crimea, scoundrel? When will the sanctions be lifted? When will the political prisoners be released? When will Russia stop stealing? And, in general, how long will we tolerate all of this?
+{% jb_picture_body %}
 
-I'm sorry to disappoint you, but Putin has calm and logical answers to all these seemingly sharp questions. He is not afraid of these questions, and they are asked by "brave" journalists. I put this word in quotes because, in my opinion, it doesn't take much courage to ask Putin when he will return Crimea. He did not take it. The people, both in Russia and Crimea, voted for the annexation of Crimea. What do you want from me, he will answer. Do you want me, the duly elected president with an overwhelming majority, to go against the will of my people?
+<!--more-->
 
-As for political prisoners, kidnappings of people, and attacks on journalists, this is not a question for the president at all. We have a criminal code and courts where no one hides anything from anyone. If the investigation has evidence, the accused receive what they deserve. If not, they are released. Everyone is equal before the law in our country. As for missing journalists, we are actively searching for them, doing everything possible, so please rest assured," says Vladimir Vladimirovich.
+I anticipate your options. When will you return Crimea, you scoundrel? When will the sanctions be lifted? When will the political prisoners be released? When will Russia stop stealing? And overall, how long will we endure all of this?
 
-Such questions are meaningless. By asking them, we only demonstrate our lack of understanding of the situation and our silent agreement with it. And the lack of understanding lies in the fact that we are looking for a king and defender of our serf interests in the president, rather than a temporarily elected and hired executor of our will.
+I'm sorry to disappoint you, but Putin has calm and logical answers to all these seemingly sharp questions. He is not afraid of these questions, and they are asked by "brave" journalists. I put the word "brave" in quotes because, in my opinion, it does not take much bravery to ask Putin when he will return Crimea. He did not take it. The people, both in Russia and Crimea, voted for the annexation of Crimea. What do you want from me? The answer will be that as a legitimately elected president with an overwhelming majority, I should go against the will of my people?
 
-In a dialogue between the people and the president, the first, represented by one and a half thousand journalists, should not ask why journalists are being killed somewhere, why corrupt individuals are not being imprisoned, or why the voice of justice is not being heard. If the president is responsible for any of this, it is indirectly. He does not kill any journalists, does not directly investigate corruption cases, and the voices of justice are not audible to him.
+As for political prisoners, kidnappings, and attacks on journalists, this is not a question for the president at all. We have a criminal code and courts where no one hides anything from anyone. If the investigation has evidence, the accused will be judged accordingly. If not, they will be released. We are all equal before the law. And as for the missing journalists, we are actively searching for them, doing everything we can. Rest assured," Vladimir Vladimirovich says.
 
-Instead, the people should be asking their president about the results for which he bears direct responsibility and for which he was elected. What are these results? Let's figure it out. Putin has been leading the country directly or through Medvedev for 16 years already, starting in January 2000, immediately after Boris Yeltsin's voluntary resignation. How has your life changed in the territory that Putin manages (no matter what it is called)? How has the quality of your life changed?
+Such questions make no sense. By asking them, we only demonstrate our lack of understanding of the situation and our silent agreement with it. And the lack of understanding lies in the fact that we are looking for a king and defender of our servant interests in the president, rather than a temporarily elected and hired executor of our will.
 
-Various metrics and assessment methodologies are used to measure the quality of life. Let's take the most obvious and understandable ones and see where Russia stands compared to other countries.
+During the dialogue between the people and the president, the first, represented by one and a half thousand journalists, should not ask why journalists are being killed somewhere, why corrupt officials are not being imprisoned, or why the voice of justice is not being heard. If the president is responsible for any of these actions, it is indirectly. He does not kill any journalists, does not directly conduct investigations into corrupt officials, and the voices of justice are not audible to him.
 
-Maybe it's time to stop asking Putin about Crimea, Syria, Ulyukaev, kvass, and homeless animals, and finally ask the main question to the President of Russia: Vladimir Vladimirovich, are you sure that you are capable of fulfilling your duties and that it's not time for you to retire due to plain incompetence?
+Instead, people should ask their president about the results for which he bears direct responsibility and for which he was elected. What are these results? Let's figure it out. Putin has been directly or indirectly leading the country for 16 years, starting in January 2000, immediately after Boris Yeltsin's voluntary resignation. How has your life changed in the territory that Putin governs (whatever it may be called)? How has the quality of your life changed?
 
-I'm genuinely curious to know what he would reply.
+Various metrics and evaluation methodologies are used to measure the quality of life. Let's take the most obvious and understandable ones and see where Russia stands in relation to other countries.
 
-Translated by gpt-3.5-turbo on 2023-08-16 09:10:48 +0300.
+* [Life satisfaction index](https://en.wikipedia.org/wiki/Life_satisfaction_index): 167th out of 178. 
+* [World Happiness Index](https://en.wikipedia.org/wiki/World_Happiness_Index): 172nd out of 178. 
+* [Quality of life index](https://en.wikipedia.org/wiki/Quality_of_life_index): 72nd out of 80. 
+* [Human Development Index](https://en.wikipedia.org/wiki/Human_Development_Index): 57th out of 187. 
+* [GDP per capita](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita): 66th out of 186 (the higher the position, the wealthier the population). 
+* [Corruption Perception Index](https://en.wikipedia.org/wiki/Corruption_Perceptions_Index): 133rd out of 174 (the lower the position, the higher the corruption). 
+* [Population mortality rate](https://en.wikipedia.org/wiki/List_of_countries_by_death_rate): 32nd out of 195 (the higher the position in the ranking, the higher the mortality rate). 
+* [Healthcare system efficiency](http://gtmarket.ru/news/2016/10/08/7306): 55th out of 55. 
+* [Level of media freedom](http://gtmarket.ru/ratings/freedom-of-the-press/info): 181st out of 199. 
+* [Life expectancy](https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy): 110th out of 183. 
+* [Intentional homicide rate](https://en.wikipedia.org/wiki/List_of_countries_by_intentional_homicide_rate): 72nd out of 207 (the higher the position, the higher the number of murders). 
+* [Infant mortality rate](http://gtmarket.ru/ratings/child-mortality-rate/info): 64th out of 193 (the higher the position, the fewer deaths).
+
+16 years of work and such sad results.
+
+Perhaps it's time to stop asking Putin about Crimea, Syria, Ulyukayev, kvass, and homeless animals, and finally ask the main question to the President of Russia: Vladimir Vladimirovich, are you confident that you are fulfilling your responsibilities and is it not time for you to retire due to sheer incompetence?
+
+I'm genuinely curious about what he would answer.
+
+Translated by gpt-3.5-turbo/ru-0.1 on 2023-08-18 14:06:05 +0300.

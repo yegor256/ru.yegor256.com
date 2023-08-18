@@ -1,19 +1,23 @@
-In 1985, when I was nine years old, I was solemnly accepted into the pioneers and I took an oath to "live, study, and fight, as the great Lenin commanded." It has been 30 years and the Verkhovna Rada has passed a law "On the condemnation of communist and national-socialist (Nazi) totalitarian regimes in Ukraine and the prohibition of propaganda of their symbolism." What should I do with my oath?
+In 1985, when I was nine years old, I was ceremoniously accepted into the Young Pioneers, and I took an oath to "live, study, and fight as the great Lenin commanded." It has been 30 years since then, and the Verkhovna Rada has passed a law "On Condemning the Communist and National-Socialist (Nazi) Totalitarian Regimes in Ukraine and Prohibiting the Propagation of their Symbols." What should I do with my oath?
+
+{% jb_picture_body %}
+
+<!--more-->
 
 254 deputies voted. All "in favor". Not a single vote "against".
 
-The average age of the deputies of the Verkhovna Rada is 47 years old. This means that the absolute majority of them took the same oath as I did. Moreover, many of them were members of the Komsomol and the Communist Party. For example, Boris Tarasyuk or Ivan Kirilenko: both were once members of the Communist Party of Ukraine and both voted "for".
+The average age of the deputies of the Verkhovna Rada is 47 years old. This means that the absolute majority of them took the same oath as I did. Furthermore, many of them were members of the Komsomol and the Communist Party. For example, Boris Tarasyuk and Ivan Kirilenko: both were once members of the Communist Party of Ukraine and both voted "in favor".
 
 А как же их клятвы?
 
 A few days ago, on May 9th, the country celebrated Victory Day, still officially. I was surprised by the almost complete absence of traditional symbols of the victorious Red Army for this holiday: flags, military uniforms, photographs of heroes.
 
-They were not there because they have been banned for two years by the same law "On condemnation..." from April 9, 2015. They were not there because they were banned by those who swore allegiance to Lenin's cause thirty years ago and marched with red flags on the squares - on May 1st, November 7th, and on Victory Day.
+They were not there because they have been banned for two years by the same law "On condemnation..." from April 9, 2015. They were not there because they were banned by those who swore allegiance to Lenin's cause thirty years ago and marched with red flags on the square - on May 1st, November 7th, and Victory Day.
 
-I am not defending "the case of Lenin". There are many criticisms towards him.
+I am not defending "Lenin's case". There are many claims against him.
 
-I am concerned about how quickly and eagerly we abandon old vows to make new ones. This does not reflect well on us. Or, as the character Leonid Bronevoy said in the film "17 Moments of Spring," "changing one's opinion always smells bad."
+I am concerned about how quickly and eagerly we abandon old vows in order to make new ones. This does not reflect well on us. Or, as the character Leonid Bronevoy said in the film "17 Moments of Spring," "changing one's opinion always smells bad."
 
 Wouldn't it be better to do without oaths altogether?
 
-Translated by gpt-3.5-turbo on 2023-08-16 09:17:04 +0300.
+Translated by gpt-3.5-turbo/ru-0.1 on 2023-08-18 14:12:40 +0300.
