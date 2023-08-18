@@ -27,6 +27,9 @@ require 'uri'
 require 'openssl'
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
+# Update this version and all pages will be re-translated
+OUR_VERSION = 'ru-0.1'
+
 # Jekyll module
 module Jekyll
   # The class
@@ -57,8 +60,11 @@ module Jekyll
       markdown.split(/\n{2,}/).compact.map do |par|
         par.gsub!("\n", ' ')
         par.gsub!(/\s{2,}/, ' ')
-        next unless par =~ /^[А-Я]/
-        Redcarpet::Markdown.new(Strip).render(par)
+        if par =~ /^[А-Я]/
+          Redcarpet::Markdown.new(Strip).render(par)
+        else
+          par
+        end
       end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
     end
 
@@ -73,7 +79,8 @@ module Jekyll
       before = Net::HTTP.get_response(URI(uri))
       if before.is_a?(Net::HTTPSuccess)
         puts "No need to translate, translation found at #{uri} (#{before.body.split.count} words)"
-        return before.body
+        return before.body if before.body.include?("/#{OUR_VERSION}")
+        puts "Need to re-translate this: #{uri}"
       end
       puts "GET #{uri}: #{before.code}"
       gpt(OpenAI::Client.new(access_token: key), rus)
@@ -111,7 +118,7 @@ module Jekyll
           par
         end
       end.join("\n\n")
-      "#{body}\n\nTranslated by #{model} on #{Time.now}."
+      "#{body}\n\nTranslated by #{model}/#{OUR_VERSION} on #{Time.now}."
     end
   end
 
@@ -134,6 +141,14 @@ module Jekyll
       define_method method do |*args|
         args.first
       end
+    end
+
+    def list(content, _type)
+      content
+    end
+
+    def list_item(content, _type)
+      content
     end
 
     def paragraph(text)
