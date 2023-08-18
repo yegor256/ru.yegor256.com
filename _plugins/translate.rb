@@ -62,6 +62,7 @@ module Jekyll
         par.gsub!(/\s{2,}/, ' ')
         par.strip!
         next if par.start_with?('<')
+        next if par.start_with?('{%')
         Redcarpet::Markdown.new(Strip).render(par)
       end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
     end
