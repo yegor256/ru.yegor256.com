@@ -28,7 +28,7 @@ require 'openssl'
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
 # Update this version and all pages will be re-translated
-OUR_VERSION = 'ru-0.1'
+OUR_VERSION = 'ru-0.2'
 
 # Jekyll module
 module Jekyll
@@ -60,11 +60,9 @@ module Jekyll
       markdown.split(/\n{2,}/).compact.map do |par|
         par.gsub!("\n", ' ')
         par.gsub!(/\s{2,}/, ' ')
-        if par =~ /^[А-Я]/
-          Redcarpet::Markdown.new(Strip).render(par)
-        else
-          par
-        end
+        par.strip!
+        next if par.start_with?('<')
+        Redcarpet::Markdown.new(Strip).render(par)
       end.join("\n\n").gsub(/\n{2,}/, "\n\n").strip
     end
 
@@ -89,7 +87,13 @@ module Jekyll
     def gpt(client, rus)
       model = 'gpt-3.5-turbo'
       body = rus.split("\n\n").compact.map do |par|
-        if par.length >= 32
+        if par.length <= 32
+          puts "Not translating this, b/c too short: \"#{par}\""
+          par
+        elsif par !~ /^[А-Я]/
+          puts "Not translating this, b/c it's not a plain text: \"#{par}\""
+          par
+        else
           t = nil
           begin
             response = client.chat(
@@ -113,9 +117,6 @@ module Jekyll
             puts "Translated #{par.split.count} words to #{t.split.count} English words through #{model}"
             t
           end
-        else
-          puts "Not translating this, b/c too short: \"#{par}\""
-          par
         end
       end.join("\n\n")
       "#{body}\n\nTranslated by #{model}/#{OUR_VERSION} on #{Time.now}."
