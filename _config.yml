@@ -30,7 +30,7 @@ plugins:
   - jekyll-chatgpt-translate
 
 chatgpt-translate:
-  threshold: 5
+  threshold: 32
   layout: english
   source: ru
   targets:
