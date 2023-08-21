@@ -27,6 +27,17 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-bits
+  - jekyll-chatgpt-translate
+
+chatgpt-translate:
+  api_key_file: chatgpt-key.txt
+  threshold: 5
+  layout: eng
+  source: ru
+  targets:
+    -
+      language: en
+      permalink: :year-:month-:day-:slug-eng.html
 
 paginate: 8
 paginate_path: "p/:num"

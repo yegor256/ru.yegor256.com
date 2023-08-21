@@ -7,7 +7,7 @@ layout: default
     <main>
       <article class="main" itemprop="articleBody" style="font-family: sans-serif; font-size: 0.9em; line-height: 1.2em;">
         <p style="color: #C42C00;">The following text is a translation of the
-          <a href='{{ site.url }}/{{ page.url | replace: "/eng/", "" | replace: "-eng", ".html" }}'>original article</a>,
+          <a href='{{ site.url }}{{ page.translated-original-url }}'>original article</a>,
           performed by <a href="https://chat.openai.com/">ChatGPT</a>:
         </p>
         <p><strong>&ldquo;{{ page.title }}&rdquo;</strong></p>
