@@ -30,7 +30,6 @@ plugins:
   - jekyll-chatgpt-translate
 
 chatgpt-translate:
-  api_key_file: ../chatgpt-key.txt
   threshold: 5
   layout: english
   source: ru
