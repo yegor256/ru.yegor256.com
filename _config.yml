@@ -2,7 +2,7 @@ title: Егор Бугаенко о политике
 email: yegor256@gmail.com
 description: >
   Это русскоязычный раздел моего блога, где я
-  пишу в основном о политике и в основном в Украине
+  пишу в основном о политике и в основном на Украине
 baseurl: ""
 url: "https://ru.yegor256.com"
 twitter_username: yegor256
@@ -30,13 +30,12 @@ plugins:
   - jekyll-chatgpt-translate
 
 chatgpt-translate:
-  threshold: 32
   layout: english
   source: ru
   targets:
     -
       language: en
-      permalink: :year-:month-:day-:slug-eng.html
+      permalink: english/:year-:month-:day-:slug.html
 
 paginate: 8
 paginate_path: "p/:num"
