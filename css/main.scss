@@ -3,7 +3,7 @@
 @charset 'utf-8';
 
 $red: #c42c00;
-$gray: lightgray;
+$gray: #d3d3d3;
 
 .photo {
   border: 4px solid $red;
@@ -18,7 +18,7 @@ $gray: lightgray;
   }
 }
 
-p.jekyll-chatgpt-translate {
+.jekyll-chatgpt-translate {
   color: $gray;
   font-size: 80%;
 }
