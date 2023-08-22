@@ -100,11 +100,13 @@ layout: default
           </a>
         </nav>
       </div>
-      <div style="color: #C42C00; font-family: sans-serif; font-size: 0.8em;">
-        <a href='{{ site.url }}{{ page.translated-en-url }}'>Click here</a>
-        to read it in English, translated by
-        <a href="https://chat.openai.com/">ChatGPT</a>
-      </div>
+      {% if page.translated-en-url %}
+        <div style="color: #C42C00; font-family: sans-serif; font-size: 0.8em;">
+          <a href='{{ site.url }}{{ page.translated-en-url }}'>Click here</a>
+          to read it in English, translated by
+          <a href="https://chat.openai.com/">ChatGPT</a>
+        </div>
+      {% endif %}
     </header>
     <main>
       <article class="main" itemprop="articleBody">
