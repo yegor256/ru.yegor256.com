@@ -30,9 +30,10 @@ plugins:
   - jekyll-chatgpt-translate
 
 chatgpt-translate:
+  threshold: 1000
   layout: english
   source: ru
-  version: "001"
+  version: "002"
   targets:
     -
       language: en
