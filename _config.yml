@@ -32,10 +32,11 @@ plugins:
 chatgpt-translate:
   layout: english
   source: ru
+  version: "001"
   targets:
     -
       language: en
-      permalink: english/:year-:month-:day-:slug.html
+      permalink: en/:year-:month-:day-:slug.html
 
 paginate: 8
 paginate_path: "p/:num"
