@@ -39,6 +39,9 @@ chatgpt-translate:
     -
       language: en
       permalink: en/:year-:month-:day-:slug.html
+    -
+      language: zh
+      permalink: zh/:year-:month-:day-:slug.html
 
 paginate: 8
 paginate_path: "p/:num"
