@@ -30,7 +30,6 @@ plugins:
   - jekyll-chatgpt-translate
 
 chatgpt-translate:
-  model: "gpt-4"
   min_chars: 20
   layout: english
   source: ru
