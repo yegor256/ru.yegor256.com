@@ -31,10 +31,9 @@ plugins:
 
 chatgpt-translate:
   min_chars: 20
-  threshold: 8
   layout: english
   source: ru
-  version: "004"
+  version: "005"
   targets:
     -
       language: en
