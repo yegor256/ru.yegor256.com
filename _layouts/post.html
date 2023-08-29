@@ -100,12 +100,12 @@ layout: default
           </a>
         </nav>
       </div>
-      {% if page.translated-en-url %}
+      {% if page.chatgpt-translate.model %}
         <div style="color: #C42C00; font-family: sans-serif; font-size: 0.8em;">
           You can also read this article in
-          <a href='{{ site.url }}{{ page.translated-en-url }}'>English</a>
+          <a href='{{ site.url }}{{ page.chatgpt-translate.urls["en"] }}'>English</a>
           and
-          <a href='{{ site.url }}{{ page.translated-zh-url }}'>中文</a>,
+          <a href='{{ site.url }}{{ page.chatgpt-translate.urls["zh"] }}'>中文</a>,
           translated by
           <a href="https://chat.openai.com/">ChatGPT</a>
         </div>
