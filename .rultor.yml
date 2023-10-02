@@ -6,6 +6,7 @@ assets:
   id_rsa: "yegor256/home#assets/blog/id_rsa"
   id_rsa.pub: "yegor256/home#assets/blog/id_rsa.pub"
 install: |
+  sudo apt-get update --fix-missing
   sudo apt-get install -y clang
   sudo bundle install --no-color "--gemfile=$(pwd)/Gemfile"
 merge:
