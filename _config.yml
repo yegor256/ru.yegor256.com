@@ -34,7 +34,7 @@ chatgpt-translate:
   layout: english
   source: ru
   window_length: 3000
-  version: "38"
+  version: "39"
   targets:
     -
       language: en
