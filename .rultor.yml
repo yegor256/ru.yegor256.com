@@ -6,8 +6,8 @@ assets:
   id_rsa: "yegor256/home#assets/blog/id_rsa"
   id_rsa.pub: "yegor256/home#assets/blog/id_rsa.pub"
 install: |
-  sudo bundle install --no-color "--gemfile=$(pwd)/Gemfile"
   sudo apt-get install -y clang
+  sudo bundle install --no-color "--gemfile=$(pwd)/Gemfile"
 merge:
   script: |
     LC_ALL=en_US.UTF-8 bundle exec rake
