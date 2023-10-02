@@ -33,7 +33,7 @@ chatgpt-translate:
   min_chars: 20
   layout: english
   source: ru
-  version: "36"
+  version: "37"
   targets:
     -
       language: en
