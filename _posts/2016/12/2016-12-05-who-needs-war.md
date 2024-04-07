@@ -48,7 +48,7 @@ jb_picture:
 Кому же она нужна?
 
 <aside class="quote">
-Лозунг защиты отечества есть сплошь да рядом обыва­тельски-несознательное оправдание войны
+Лозунг защиты отечества есть сплошь да рядом обывательски-несознательное оправдание войны
 <span><a href="http://leninism.su/works/69-tom-30/1988-o-karikature-na-marksizm-i-ob-limperialisticheskom-ekonomizmer.html">Ленин</a></span>
 </aside>
 
