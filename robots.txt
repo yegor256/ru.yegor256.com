@@ -1,3 +1,0 @@
-sitemap: http://ru.yegor256.com/sitemap.xml
-User-agent: *
-Disallow: /eng-txt/
