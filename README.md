@@ -1,1 +1,1 @@
-The site migrated to www.yegor256.com
+The site migrated to [www.yegor256.com](https://www.yegor256.com).
